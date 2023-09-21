@@ -20,8 +20,6 @@ Transformers reduce the computational
 complexity required to relate signals 
 between distant positions. ^JDkyMLek
 
-How ?  ^g0eXxTdt
-
 self-attention captures 
 global similarities while 
 multi-head attention 
@@ -30,9 +28,6 @@ by attending simultaneously
 but separately across 
 various parts or aspects 
 within each layer. ^WIfewKOt
-
-It seems to be something
-about its one architecture ^bRQAnOZH
 
 Convert something 
 into another form  ^a8Nt0EWj
@@ -58,12 +53,12 @@ layer ^6fzGUVrQ
 
 Encode ^g4mEZXo4
 
-Enables smooth information propagation 
-through these residual paths without 
-any mismatch or inconsistency in dimension 
-sizes. This promotes better gradient 
-flow and overall optimization during 
-training. ^vBz7V0SK
+Fixed size enables smooth information 
+propagation through these residual 
+paths without any mismatch or inconsistency 
+in dimension sizes. This promotes better 
+gradient flow and overall optimization 
+during training. ^vBz7V0SK
 
 Facilitation is based 
 on constant size not
@@ -333,7 +328,7 @@ Matmul ^HyJeZcm3
 
 input embedding ^i5WT3703
 
-input embedding ^CJQU9Ezv
+output embedding ^CJQU9Ezv
 
 shared ^bvATAq0n
 
@@ -365,6 +360,47 @@ residual ^KySQWlLu
 
 residual ^So0sRvQg
 
+1  - cat ^ULteBJyf
+
+2 - is ^fZrTqFF9
+
+3 - jumping ^TrSYMlaM
+
+0 - O (the) ^Wrd5DVht
+
+1  - gato (cat) ^YfWrPk6i
+
+2 - está (is) ^hVUF8usj
+
+3 - pulando (jumping) ^rJw53mDJ
+
+0 - the ^kCDVZp9x
+
+1  - cat ^9thRwEGR
+
+2 - is ^8rBDStJx
+
+3 - juping ^mvE0MQ1M
+
+Mask
+avoid ^smqXMEUd
+
+Translation en-pt simple example ^cJeCoXrZ
+
+0 - the ^4dmLmMNj
+
+E ^oDOoCIGp
+
+D ^z1xFW4sp
+
+sdsa ^oJf7dMso
+
+"Query and keys
+will "fire" weights
+of value based
+on their compatibility"
+ ^j0Rfcise
+
 
 # Embedded files
 5714295ca3c1f7d10fefa49c1f0fb788627b8d4a: [[Attention Is All You Need.pdf#page=1]]
@@ -393,8 +429,92 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 	"elements": [
 		{
 			"type": "rectangle",
-			"version": 335,
-			"versionNonce": 1918248615,
+			"version": 779,
+			"versionNonce": 1987801534,
+			"isDeleted": false,
+			"id": "ETUxoxvJHjNltNjYjiQid",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 50,
+			"angle": 0,
+			"x": 487.59335456561143,
+			"y": -1145.0594352096891,
+			"strokeColor": "transparent",
+			"backgroundColor": "#ffec99",
+			"width": 166.34626184822304,
+			"height": 13.185280176066216,
+			"seed": 71620910,
+			"groupIds": [],
+			"roundness": {
+				"type": 3
+			},
+			"boundElements": [],
+			"updated": 1694624927698,
+			"link": null,
+			"locked": false
+		},
+		{
+			"type": "rectangle",
+			"version": 658,
+			"versionNonce": 1450971426,
+			"isDeleted": false,
+			"id": "IShxH0fEoYoUK8EmG-HMb",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 50,
+			"angle": 0,
+			"x": 485.3995225936583,
+			"y": -1162.8294741825082,
+			"strokeColor": "transparent",
+			"backgroundColor": "#ffec99",
+			"width": 480.06423383749694,
+			"height": 16.25664493680044,
+			"seed": 1455663922,
+			"groupIds": [],
+			"roundness": {
+				"type": 3
+			},
+			"boundElements": [],
+			"updated": 1694624927698,
+			"link": null,
+			"locked": false
+		},
+		{
+			"type": "rectangle",
+			"version": 141,
+			"versionNonce": 1810008574,
+			"isDeleted": false,
+			"id": "APKhyQbPJYMVgEIfRpMS9",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 50,
+			"angle": 0,
+			"x": -3.515008460547506,
+			"y": -677.7424366882431,
+			"strokeColor": "transparent",
+			"backgroundColor": "#ffec99",
+			"width": 208.02906931532954,
+			"height": 15.817878542409858,
+			"seed": 1345984818,
+			"groupIds": [],
+			"roundness": {
+				"type": 3
+			},
+			"boundElements": [],
+			"updated": 1694624927698,
+			"link": null,
+			"locked": false
+		},
+		{
+			"type": "rectangle",
+			"version": 397,
+			"versionNonce": 551656674,
 			"isDeleted": false,
 			"id": "OPZvMAm9sEwIP8BLmfUBE",
 			"fillStyle": "solid",
@@ -413,14 +533,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484757,
+			"updated": 1694624927698,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 514,
-			"versionNonce": 578960201,
+			"version": 576,
+			"versionNonce": 222075454,
 			"isDeleted": false,
 			"id": "YaHyek_St8MdlFLVh1wwZ",
 			"fillStyle": "solid",
@@ -441,14 +561,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1693591484757,
+			"updated": 1694624927698,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 308,
-			"versionNonce": 1783151047,
+			"version": 370,
+			"versionNonce": 1713352866,
 			"isDeleted": false,
 			"id": "P1i2wvgR2ci5MI6NhwvW0",
 			"fillStyle": "solid",
@@ -474,14 +594,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484757,
+			"updated": 1694624927698,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 199,
-			"versionNonce": 1192094249,
+			"version": 261,
+			"versionNonce": 1365942910,
 			"isDeleted": false,
 			"id": "APV8QuMSb0UYqvvwT_hS-",
 			"fillStyle": "solid",
@@ -505,14 +625,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484757,
+			"updated": 1694624927698,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 248,
-			"versionNonce": 1757145319,
+			"version": 310,
+			"versionNonce": 1239764066,
 			"isDeleted": false,
 			"id": "q6SBWe8Ryj6CXzIEDndEw",
 			"fillStyle": "solid",
@@ -536,14 +656,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484757,
+			"updated": 1694624927698,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 286,
-			"versionNonce": 48393,
+			"version": 348,
+			"versionNonce": 724411070,
 			"isDeleted": false,
 			"id": "gYYbTI58n88g6v24B7150",
 			"fillStyle": "solid",
@@ -571,14 +691,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484757,
+			"updated": 1694624927698,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 1412,
-			"versionNonce": 188494855,
+			"version": 1474,
+			"versionNonce": 570519586,
 			"isDeleted": false,
 			"id": "wgKmbHjgdenYcoDd1AOtQ",
 			"fillStyle": "solid",
@@ -608,14 +728,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484757,
+			"updated": 1694624927698,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 756,
-			"versionNonce": 2094412777,
+			"version": 818,
+			"versionNonce": 220633854,
 			"isDeleted": false,
 			"id": "sk1ADWPbnUiMEe0dKbGQG",
 			"fillStyle": "solid",
@@ -636,14 +756,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1693591484757,
+			"updated": 1694624927698,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 1331,
-			"versionNonce": 163978023,
+			"version": 1393,
+			"versionNonce": 845356002,
 			"isDeleted": false,
 			"id": "aXmUk1aSueGDjZt3B5mLv",
 			"fillStyle": "solid",
@@ -664,14 +784,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1693591484757,
+			"updated": 1694624927698,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "image",
-			"version": 1668,
-			"versionNonce": 1905905353,
+			"version": 1783,
+			"versionNonce": 1842776894,
 			"isDeleted": false,
 			"id": "PQqF4mB9",
 			"fillStyle": "hachure",
@@ -692,7 +812,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484757,
+			"updated": 1694624927698,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -704,8 +824,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "rectangle",
-			"version": 1556,
-			"versionNonce": 1757814343,
+			"version": 1671,
+			"versionNonce": 1763266466,
 			"isDeleted": false,
 			"id": "MH08PHHq",
 			"fillStyle": "hachure",
@@ -726,14 +846,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484757,
+			"updated": 1694624927698,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1426,
-			"versionNonce": 82251177,
+			"version": 1541,
+			"versionNonce": 1268675454,
 			"isDeleted": false,
 			"id": "ggXAtAp2",
 			"fillStyle": "solid",
@@ -759,7 +879,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484757,
+			"updated": 1694624927698,
 			"link": null,
 			"locked": false,
 			"fontSize": 10.180837963880755,
@@ -775,8 +895,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 1732,
-			"versionNonce": 1796783463,
+			"version": 1847,
+			"versionNonce": 441650018,
 			"isDeleted": false,
 			"id": "6fzGUVrQ",
 			"fillStyle": "solid",
@@ -802,7 +922,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484757,
+			"updated": 1694624927698,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -818,8 +938,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 1556,
-			"versionNonce": 1141536903,
+			"version": 1671,
+			"versionNonce": 817845182,
 			"isDeleted": false,
 			"id": "xNdpXUVO",
 			"fillStyle": "solid",
@@ -845,7 +965,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484757,
+			"updated": 1694624927699,
 			"link": null,
 			"locked": false,
 			"fontSize": 10.590121771057342,
@@ -861,8 +981,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 1382,
-			"versionNonce": 844920681,
+			"version": 1497,
+			"versionNonce": 1012879138,
 			"isDeleted": false,
 			"id": "eRAa6C6u",
 			"fillStyle": "solid",
@@ -883,7 +1003,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484757,
+			"updated": 1694624927699,
 			"link": null,
 			"locked": false,
 			"fontSize": 7.859024889519961,
@@ -899,8 +1019,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 814,
-			"versionNonce": 156749735,
+			"version": 929,
+			"versionNonce": 928656382,
 			"isDeleted": false,
 			"id": "NpHqGDcw",
 			"fillStyle": "solid",
@@ -921,7 +1041,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484757,
+			"updated": 1694624927699,
 			"link": null,
 			"locked": false,
 			"fontSize": 8.44859053808996,
@@ -937,8 +1057,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 1125,
-			"versionNonce": 881566281,
+			"version": 1241,
+			"versionNonce": 598547170,
 			"isDeleted": false,
 			"id": "oZ1dtVJ0",
 			"fillStyle": "solid",
@@ -964,7 +1084,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484757,
+			"updated": 1694624927699,
 			"link": null,
 			"locked": false,
 			"fontSize": 5.583225910494999,
@@ -980,8 +1100,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "rectangle",
-			"version": 430,
-			"versionNonce": 1697465031,
+			"version": 492,
+			"versionNonce": 225442878,
 			"isDeleted": false,
 			"id": "jalY3LcQtZDny2-Cli1t9",
 			"fillStyle": "solid",
@@ -1002,14 +1122,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1693591484757,
+			"updated": 1694624927699,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 448,
-			"versionNonce": 1095921961,
+			"version": 510,
+			"versionNonce": 1053519522,
 			"isDeleted": false,
 			"id": "16-K4Kh2ORfhTu_i1YtuN",
 			"fillStyle": "solid",
@@ -1039,14 +1159,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484757,
+			"updated": 1694624927699,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 511,
-			"versionNonce": 136794599,
+			"version": 573,
+			"versionNonce": 2028061822,
 			"isDeleted": false,
 			"id": "uqoDFM9DiKcLSHdRXbqsQ",
 			"fillStyle": "solid",
@@ -1067,14 +1187,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1693591484757,
+			"updated": 1694624927699,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 520,
-			"versionNonce": 1847354377,
+			"version": 582,
+			"versionNonce": 1382632034,
 			"isDeleted": false,
 			"id": "891-Y2HXEqe-Gn_92-WwR",
 			"fillStyle": "solid",
@@ -1095,14 +1215,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1693591484757,
+			"updated": 1694624927699,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "image",
-			"version": 814,
-			"versionNonce": 1532132615,
+			"version": 876,
+			"versionNonce": 1534100670,
 			"isDeleted": false,
 			"id": "ZIGLYvpA",
 			"fillStyle": "hachure",
@@ -1123,7 +1243,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927699,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -1135,8 +1255,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "rectangle",
-			"version": 755,
-			"versionNonce": 384105193,
+			"version": 817,
+			"versionNonce": 894807586,
 			"isDeleted": false,
 			"id": "aUkprZQD",
 			"fillStyle": "hachure",
@@ -1157,14 +1277,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927699,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 726,
-			"versionNonce": 1915438119,
+			"version": 788,
+			"versionNonce": 918371582,
 			"isDeleted": false,
 			"id": "vFIFPWNi",
 			"fillStyle": "hachure",
@@ -1185,7 +1305,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927699,
 			"link": null,
 			"locked": false,
 			"fontSize": 9.666642144098846,
@@ -1201,8 +1321,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 704,
-			"versionNonce": 204977609,
+			"version": 766,
+			"versionNonce": 209689058,
 			"isDeleted": false,
 			"id": "UocU7XmS",
 			"fillStyle": "solid",
@@ -1223,7 +1343,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927699,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -1239,8 +1359,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "rectangle",
-			"version": 929,
-			"versionNonce": 1016997703,
+			"version": 991,
+			"versionNonce": 810085694,
 			"isDeleted": false,
 			"id": "BtRkzwpgX7MHvsxWGPXFL",
 			"fillStyle": "solid",
@@ -1259,14 +1379,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927699,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 513,
-			"versionNonce": 19928233,
+			"version": 575,
+			"versionNonce": 116788642,
 			"isDeleted": false,
 			"id": "JnGdLGgz8QssBEhtI3Obn",
 			"fillStyle": "solid",
@@ -1287,14 +1407,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927699,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 704,
-			"versionNonce": 2030544487,
+			"version": 766,
+			"versionNonce": 359961982,
 			"isDeleted": false,
 			"id": "BQwspL-ubt95qi0ePQxSm",
 			"fillStyle": "solid",
@@ -1315,14 +1435,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927699,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 593,
-			"versionNonce": 964269961,
+			"version": 655,
+			"versionNonce": 434637154,
 			"isDeleted": false,
 			"id": "DA6QcfJLNA4mafy4lhEHT",
 			"fillStyle": "solid",
@@ -1343,42 +1463,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1693591484758,
-			"link": null,
-			"locked": false
-		},
-		{
-			"type": "rectangle",
-			"version": 1062,
-			"versionNonce": 1714700679,
-			"isDeleted": false,
-			"id": "wKWEB3WM",
-			"fillStyle": "hachure",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": -1169.8613107857218,
-			"y": -1535.2614401022415,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
-			"width": 734,
-			"height": 950,
-			"seed": 19111,
-			"groupIds": [
-				"e83Z6Yeb"
-			],
-			"roundness": null,
-			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927699,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "image",
-			"version": 1149,
-			"versionNonce": 2001714793,
+			"version": 1245,
+			"versionNonce": 1017416994,
 			"isDeleted": false,
 			"id": "XfClamgt",
 			"fillStyle": "hachure",
@@ -1399,7 +1491,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927699,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -1411,46 +1503,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 1863,
-			"versionNonce": 895514791,
-			"isDeleted": false,
-			"id": "g0eXxTdt",
-			"fillStyle": "solid",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 0,
-			"opacity": 100,
-			"angle": 0,
-			"x": -694.3559699325856,
-			"y": -1120.3125588267058,
-			"strokeColor": "#e03131",
-			"backgroundColor": "#ffec99",
-			"width": 50.880096435546875,
-			"height": 20,
-			"seed": 1236680074,
-			"groupIds": [
-				"e83Z6Yeb"
-			],
-			"roundness": null,
-			"boundElements": [],
-			"updated": 1693591484758,
-			"link": null,
-			"locked": false,
-			"fontSize": 16,
-			"fontFamily": 1,
-			"text": "How ? ",
-			"rawText": "How ? ",
-			"textAlign": "left",
-			"verticalAlign": "top",
-			"containerId": null,
-			"originalText": "How ? ",
-			"lineHeight": 1.25,
-			"baseline": 14
-		},
-		{
-			"type": "text",
-			"version": 1053,
-			"versionNonce": 696125769,
+			"version": 1149,
+			"versionNonce": 614111458,
 			"isDeleted": false,
 			"id": "a8Nt0EWj",
 			"fillStyle": "solid",
@@ -1471,7 +1525,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927699,
 			"link": null,
 			"locked": false,
 			"fontSize": 9.952005091149468,
@@ -1487,8 +1541,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "rectangle",
-			"version": 482,
-			"versionNonce": 1010355143,
+			"version": 544,
+			"versionNonce": 2057395774,
 			"isDeleted": false,
 			"id": "gIv9impI4dh_yV_OgPdtJ",
 			"fillStyle": "solid",
@@ -1509,14 +1563,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927699,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 725,
-			"versionNonce": 1499461673,
+			"version": 787,
+			"versionNonce": 22621346,
 			"isDeleted": false,
 			"id": "jCobubXe",
 			"fillStyle": "hachure",
@@ -1537,14 +1591,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927699,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "image",
-			"version": 725,
-			"versionNonce": 1725545191,
+			"version": 787,
+			"versionNonce": 1033299582,
 			"isDeleted": false,
 			"id": "zYQgCoYF",
 			"fillStyle": "hachure",
@@ -1565,7 +1619,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927699,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -1577,8 +1631,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "rectangle",
-			"version": 705,
-			"versionNonce": 1491143433,
+			"version": 767,
+			"versionNonce": 948914274,
 			"isDeleted": false,
 			"id": "Xx8orCNw",
 			"fillStyle": "hachure",
@@ -1599,14 +1653,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927699,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "image",
-			"version": 705,
-			"versionNonce": 1775224327,
+			"version": 767,
+			"versionNonce": 1362192062,
 			"isDeleted": false,
 			"id": "CXjaZ0Aa",
 			"fillStyle": "hachure",
@@ -1627,7 +1681,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927699,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -1639,8 +1693,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "rectangle",
-			"version": 706,
-			"versionNonce": 813482473,
+			"version": 780,
+			"versionNonce": 571206690,
 			"isDeleted": false,
 			"id": "iFZuYt5k",
 			"fillStyle": "hachure",
@@ -1661,14 +1715,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927700,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "image",
-			"version": 706,
-			"versionNonce": 873950503,
+			"version": 780,
+			"versionNonce": 1175576318,
 			"isDeleted": false,
 			"id": "dIKJ0b4g",
 			"fillStyle": "hachure",
@@ -1689,7 +1743,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927700,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -1701,8 +1755,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "rectangle",
-			"version": 704,
-			"versionNonce": 1295949001,
+			"version": 766,
+			"versionNonce": 1136531426,
 			"isDeleted": false,
 			"id": "77h3exoa",
 			"fillStyle": "hachure",
@@ -1723,14 +1777,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927700,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "image",
-			"version": 704,
-			"versionNonce": 555561031,
+			"version": 766,
+			"versionNonce": 1891192638,
 			"isDeleted": false,
 			"id": "LfScLNf8",
 			"fillStyle": "hachure",
@@ -1751,7 +1805,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927700,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -1763,8 +1817,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "rectangle",
-			"version": 707,
-			"versionNonce": 1858214825,
+			"version": 769,
+			"versionNonce": 229952418,
 			"isDeleted": false,
 			"id": "pzxqJ38H",
 			"fillStyle": "hachure",
@@ -1785,14 +1839,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927700,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "image",
-			"version": 706,
-			"versionNonce": 1790807911,
+			"version": 768,
+			"versionNonce": 1837676414,
 			"isDeleted": false,
 			"id": "RufqxUBJ",
 			"fillStyle": "hachure",
@@ -1813,7 +1867,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927700,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -1825,8 +1879,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "rectangle",
-			"version": 534,
-			"versionNonce": 1429388937,
+			"version": 596,
+			"versionNonce": 371132258,
 			"isDeleted": false,
 			"id": "xukNHBQ7",
 			"fillStyle": "hachure",
@@ -1847,14 +1901,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927700,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "image",
-			"version": 534,
-			"versionNonce": 1531251335,
+			"version": 596,
+			"versionNonce": 616634302,
 			"isDeleted": false,
 			"id": "UqPPI9cp",
 			"fillStyle": "hachure",
@@ -1875,7 +1929,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927700,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -1887,8 +1941,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "rectangle",
-			"version": 534,
-			"versionNonce": 793511273,
+			"version": 596,
+			"versionNonce": 1431030562,
 			"isDeleted": false,
 			"id": "6xvsuswj",
 			"fillStyle": "hachure",
@@ -1909,14 +1963,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927700,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "image",
-			"version": 534,
-			"versionNonce": 1064313255,
+			"version": 596,
+			"versionNonce": 1317236734,
 			"isDeleted": false,
 			"id": "D3OYB2sJ",
 			"fillStyle": "hachure",
@@ -1937,7 +1991,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927700,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -1949,8 +2003,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "rectangle",
-			"version": 534,
-			"versionNonce": 1213821001,
+			"version": 813,
+			"versionNonce": 1638536930,
 			"isDeleted": false,
 			"id": "odHoSkZn",
 			"fillStyle": "hachure",
@@ -1959,8 +2013,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -412,
-			"y": 426.984375,
+			"x": -409.9693763693645,
+			"y": 426.57913479919057,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 734,
@@ -1971,14 +2025,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927700,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "image",
-			"version": 534,
-			"versionNonce": 409687239,
+			"version": 813,
+			"versionNonce": 1993392190,
 			"isDeleted": false,
 			"id": "X1UvxVmT",
 			"fillStyle": "hachure",
@@ -1987,8 +2041,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -412.02272656905296,
-			"y": 427.0137876753432,
+			"x": -409.9921029384175,
+			"y": 426.6085474745338,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 734.0454531381059,
@@ -1999,7 +2053,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927700,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -2011,8 +2065,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "rectangle",
-			"version": 534,
-			"versionNonce": 1983282985,
+			"version": 596,
+			"versionNonce": 734587554,
 			"isDeleted": false,
 			"id": "PIrqt14U",
 			"fillStyle": "hachure",
@@ -2033,14 +2087,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927700,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "image",
-			"version": 534,
-			"versionNonce": 231941095,
+			"version": 596,
+			"versionNonce": 25823358,
 			"isDeleted": false,
 			"id": "YxoFV9zd",
 			"fillStyle": "hachure",
@@ -2061,7 +2115,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927700,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -2073,8 +2127,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "rectangle",
-			"version": 534,
-			"versionNonce": 1196339721,
+			"version": 596,
+			"versionNonce": 978798178,
 			"isDeleted": false,
 			"id": "3f2RRCAT",
 			"fillStyle": "hachure",
@@ -2095,14 +2149,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927700,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "image",
-			"version": 534,
-			"versionNonce": 531894023,
+			"version": 596,
+			"versionNonce": 779110590,
 			"isDeleted": false,
 			"id": "6dfui00i",
 			"fillStyle": "hachure",
@@ -2123,7 +2177,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927700,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -2135,8 +2189,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 474,
-			"versionNonce": 1889372393,
+			"version": 536,
+			"versionNonce": 1713646114,
 			"isDeleted": false,
 			"id": "PLJSMn_QDvcEtsHls-76t",
 			"fillStyle": "hachure",
@@ -2157,7 +2211,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927700,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -2178,8 +2232,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 1543,
-			"versionNonce": 411735591,
+			"version": 1605,
+			"versionNonce": 488931582,
 			"isDeleted": false,
 			"id": "UDR6Ycgx",
 			"fillStyle": "solid",
@@ -2200,7 +2254,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927700,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.559479256143431,
@@ -2216,8 +2270,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 1040,
-			"versionNonce": 2075034569,
+			"version": 1102,
+			"versionNonce": 371103202,
 			"isDeleted": false,
 			"id": "JDkyMLek",
 			"fillStyle": "solid",
@@ -2236,7 +2290,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927700,
 			"link": null,
 			"locked": false,
 			"fontSize": 12.093674258722048,
@@ -2252,8 +2306,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 1740,
-			"versionNonce": 1061370183,
+			"version": 1802,
+			"versionNonce": 1361555774,
 			"isDeleted": false,
 			"id": "WIfewKOt",
 			"fillStyle": "solid",
@@ -2272,7 +2326,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927700,
 			"link": null,
 			"locked": false,
 			"fontSize": 9.058726852373757,
@@ -2287,45 +2341,9 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"baseline": 87
 		},
 		{
-			"type": "text",
-			"version": 735,
-			"versionNonce": 882713257,
-			"isDeleted": false,
-			"id": "bRQAnOZH",
-			"fillStyle": "solid",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 0,
-			"opacity": 100,
-			"angle": 0,
-			"x": -693.9838768235462,
-			"y": -1100.7889487430484,
-			"strokeColor": "#e03131",
-			"backgroundColor": "#ffec99",
-			"width": 124.41398620605469,
-			"height": 23.449914856323097,
-			"seed": 662882805,
-			"groupIds": [],
-			"roundness": null,
-			"boundElements": [],
-			"updated": 1693591484758,
-			"link": null,
-			"locked": false,
-			"fontSize": 9.379965942529239,
-			"fontFamily": 1,
-			"text": "It seems to be something\nabout its one architecture",
-			"rawText": "It seems to be something\nabout its one architecture",
-			"textAlign": "left",
-			"verticalAlign": "top",
-			"containerId": null,
-			"originalText": "It seems to be something\nabout its one architecture",
-			"lineHeight": 1.25,
-			"baseline": 19
-		},
-		{
 			"type": "line",
-			"version": 424,
-			"versionNonce": 1228568679,
+			"version": 486,
+			"versionNonce": 903534974,
 			"isDeleted": false,
 			"id": "2k02pmlYjj3JJ-j8KD1jf",
 			"fillStyle": "solid",
@@ -2344,7 +2362,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927701,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -2365,8 +2383,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 638,
-			"versionNonce": 1477764489,
+			"version": 700,
+			"versionNonce": 1291322722,
 			"isDeleted": false,
 			"id": "t63yU-dZyCTaW4gZbLjC8",
 			"fillStyle": "solid",
@@ -2385,7 +2403,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927701,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -2406,8 +2424,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 842,
-			"versionNonce": 205312903,
+			"version": 904,
+			"versionNonce": 578746814,
 			"isDeleted": false,
 			"id": "mP2sIOqn",
 			"fillStyle": "solid",
@@ -2428,7 +2446,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927701,
 			"link": null,
 			"locked": false,
 			"fontSize": 10.647246789680322,
@@ -2444,8 +2462,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 954,
-			"versionNonce": 22105193,
+			"version": 1016,
+			"versionNonce": 72681762,
 			"isDeleted": false,
 			"id": "WM2zyzAS",
 			"fillStyle": "solid",
@@ -2466,7 +2484,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927701,
 			"link": null,
 			"locked": false,
 			"fontSize": 10.647246789680322,
@@ -2482,8 +2500,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 963,
-			"versionNonce": 1887881895,
+			"version": 1025,
+			"versionNonce": 1580536318,
 			"isDeleted": false,
 			"id": "ZFspYZPN",
 			"fillStyle": "solid",
@@ -2504,7 +2522,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927701,
 			"link": null,
 			"locked": false,
 			"fontSize": 10.647246789680322,
@@ -2520,8 +2538,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 1137,
-			"versionNonce": 1478350665,
+			"version": 1199,
+			"versionNonce": 417043682,
 			"isDeleted": false,
 			"id": "j9HL0zOf",
 			"fillStyle": "solid",
@@ -2542,7 +2560,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927701,
 			"link": null,
 			"locked": false,
 			"fontSize": 10.647246789680322,
@@ -2558,8 +2576,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 1221,
-			"versionNonce": 583327175,
+			"version": 1283,
+			"versionNonce": 603857470,
 			"isDeleted": false,
 			"id": "4qGbUgt8",
 			"fillStyle": "solid",
@@ -2580,7 +2598,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927701,
 			"link": null,
 			"locked": false,
 			"fontSize": 10.647246789680322,
@@ -2596,8 +2614,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 1010,
-			"versionNonce": 2127955497,
+			"version": 1072,
+			"versionNonce": 1008380066,
 			"isDeleted": false,
 			"id": "Qdmp7Bfl",
 			"fillStyle": "solid",
@@ -2618,7 +2636,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927701,
 			"link": null,
 			"locked": false,
 			"fontSize": 10.647246789680322,
@@ -2634,8 +2652,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "image",
-			"version": 886,
-			"versionNonce": 101944551,
+			"version": 1021,
+			"versionNonce": 649800318,
 			"isDeleted": false,
 			"id": "iq9togZD",
 			"fillStyle": "hachure",
@@ -2644,7 +2662,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 358.9078190764905,
+			"x": 359.43377493827177,
 			"y": -1539.6162215845363,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
@@ -2656,7 +2674,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927701,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -2668,8 +2686,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "rectangle",
-			"version": 876,
-			"versionNonce": 1080383753,
+			"version": 1011,
+			"versionNonce": 364987490,
 			"isDeleted": false,
 			"id": "g8eXoR4s",
 			"fillStyle": "hachure",
@@ -2678,7 +2696,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 358.4378069272643,
+			"x": 358.9637627890456,
 			"y": -1539.6456342598794,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
@@ -2690,14 +2708,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927701,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 702,
-			"versionNonce": 1711233031,
+			"version": 787,
+			"versionNonce": 355281598,
 			"isDeleted": false,
 			"id": "I9UwuLu6",
 			"fillStyle": "hachure",
@@ -2718,14 +2736,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927701,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "image",
-			"version": 702,
-			"versionNonce": 2118602729,
+			"version": 787,
+			"versionNonce": 2141087778,
 			"isDeleted": false,
 			"id": "xOoz39bn",
 			"fillStyle": "hachure",
@@ -2746,7 +2764,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927701,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -2758,8 +2776,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 1017,
-			"versionNonce": 1753530151,
+			"version": 1081,
+			"versionNonce": 502604542,
 			"isDeleted": false,
 			"id": "O7cEbUvN",
 			"fillStyle": "solid",
@@ -2785,7 +2803,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484758,
+			"updated": 1694624927701,
 			"link": null,
 			"locked": false,
 			"fontSize": 10.854938274290939,
@@ -2801,8 +2819,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "arrow",
-			"version": 1237,
-			"versionNonce": 1585933001,
+			"version": 1396,
+			"versionNonce": 1101075426,
 			"isDeleted": false,
 			"id": "F84e788WayPlG0bv-fyVH",
 			"fillStyle": "solid",
@@ -2821,7 +2839,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927701,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -2846,8 +2864,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "arrow",
-			"version": 4689,
-			"versionNonce": 419821255,
+			"version": 4903,
+			"versionNonce": 1939084094,
 			"isDeleted": false,
 			"id": "8opCJnJSlSS9ohtBk-uZW",
 			"fillStyle": "solid",
@@ -2866,7 +2884,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591485863,
+			"updated": 1694624927701,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -2891,8 +2909,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "arrow",
-			"version": 2384,
-			"versionNonce": 1536097577,
+			"version": 2640,
+			"versionNonce": 1306019746,
 			"isDeleted": false,
 			"id": "oo2w3sReEG3C_Id8X4X9Y",
 			"fillStyle": "solid",
@@ -2911,7 +2929,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591485863,
+			"updated": 1694624927701,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -2932,8 +2950,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 1543,
-			"versionNonce": 1226837129,
+			"version": 1605,
+			"versionNonce": 1349188478,
 			"isDeleted": false,
 			"id": "OhYmMLCC",
 			"fillStyle": "solid",
@@ -2957,7 +2975,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484758,
+			"updated": 1694624927701,
 			"link": null,
 			"locked": false,
 			"fontSize": 8.812496251195538,
@@ -2973,8 +2991,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "arrow",
-			"version": 4014,
-			"versionNonce": 1645976711,
+			"version": 4186,
+			"versionNonce": 2087912290,
 			"isDeleted": false,
 			"id": "GMhHSKyVIjT8HSrmYGJwd",
 			"fillStyle": "solid",
@@ -2993,7 +3011,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927701,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -3022,8 +3040,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 553,
-			"versionNonce": 341807977,
+			"version": 615,
+			"versionNonce": 2059066302,
 			"isDeleted": false,
 			"id": "g4mEZXo4",
 			"fillStyle": "solid",
@@ -3042,7 +3060,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927701,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -3058,8 +3076,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 1261,
-			"versionNonce": 1846148775,
+			"version": 1347,
+			"versionNonce": 1203783458,
 			"isDeleted": false,
 			"id": "vBz7V0SK",
 			"fillStyle": "solid",
@@ -3072,7 +3090,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"y": -918.8808212103675,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "#ced4da",
-			"width": 116.41201782226562,
+			"width": 124.42228698730469,
 			"height": 42.00148826213808,
 			"seed": 1438220763,
 			"groupIds": [],
@@ -3083,24 +3101,24 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591542181,
+			"updated": 1694624927701,
 			"link": null,
 			"locked": false,
 			"fontSize": 5.600198434951745,
 			"fontFamily": 1,
-			"text": "Enables smooth information propagation \nthrough these residual paths without \nany mismatch or inconsistency in dimension \nsizes. This promotes better gradient \nflow and overall optimization during \ntraining.",
-			"rawText": "Enables smooth information propagation \nthrough these residual paths without \nany mismatch or inconsistency in dimension \nsizes. This promotes better gradient \nflow and overall optimization during \ntraining.",
+			"text": "Fixed size enables smooth information \npropagation through these residual \npaths without any mismatch or inconsistency \nin dimension sizes. This promotes better \ngradient flow and overall optimization \nduring training.",
+			"rawText": "Fixed size enables smooth information \npropagation through these residual \npaths without any mismatch or inconsistency \nin dimension sizes. This promotes better \ngradient flow and overall optimization \nduring training.",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Enables smooth information propagation \nthrough these residual paths without \nany mismatch or inconsistency in dimension \nsizes. This promotes better gradient \nflow and overall optimization during \ntraining.",
+			"originalText": "Fixed size enables smooth information \npropagation through these residual \npaths without any mismatch or inconsistency \nin dimension sizes. This promotes better \ngradient flow and overall optimization \nduring training.",
 			"lineHeight": 1.25,
 			"baseline": 40
 		},
 		{
 			"type": "line",
-			"version": 453,
-			"versionNonce": 533413449,
+			"version": 515,
+			"versionNonce": 1218753534,
 			"isDeleted": false,
 			"id": "hQM7c3RVn6cYO-K_-rome",
 			"fillStyle": "solid",
@@ -3121,7 +3139,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927701,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -3142,8 +3160,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "arrow",
-			"version": 936,
-			"versionNonce": 1318576969,
+			"version": 1022,
+			"versionNonce": 137302754,
 			"isDeleted": false,
 			"id": "-FzsFhIXM6743XyTTtfj1",
 			"fillStyle": "solid",
@@ -3156,7 +3174,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"y": -835.161214934339,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "#ced4da",
-			"width": 0.7692716046966268,
+			"width": 0.4813917166241879,
 			"height": 31.73932635991298,
 			"seed": 2053973653,
 			"groupIds": [],
@@ -3164,7 +3182,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1693591542182,
+			"updated": 1694624927701,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -3182,15 +3200,15 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					0
 				],
 				[
-					-0.7692716046966268,
+					0.4813917166241879,
 					-31.73932635991298
 				]
 			]
 		},
 		{
 			"type": "text",
-			"version": 1401,
-			"versionNonce": 1514048809,
+			"version": 1463,
+			"versionNonce": 606700606,
 			"isDeleted": false,
 			"id": "pdpI6krC",
 			"fillStyle": "solid",
@@ -3216,7 +3234,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484758,
+			"updated": 1694624927702,
 			"link": null,
 			"locked": false,
 			"fontSize": 10.095601874220458,
@@ -3232,8 +3250,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "arrow",
-			"version": 627,
-			"versionNonce": 1486550503,
+			"version": 689,
+			"versionNonce": 810444450,
 			"isDeleted": false,
 			"id": "ol5Im8alKbHG6kgVtgzMw",
 			"fillStyle": "solid",
@@ -3254,7 +3272,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927702,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -3279,8 +3297,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "arrow",
-			"version": 377,
-			"versionNonce": 1260716041,
+			"version": 439,
+			"versionNonce": 254430334,
 			"isDeleted": false,
 			"id": "rSD5F7Y0KD_XClwEdofMB",
 			"fillStyle": "solid",
@@ -3301,7 +3319,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927702,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -3326,8 +3344,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 381,
-			"versionNonce": 632398087,
+			"version": 477,
+			"versionNonce": 147669602,
 			"isDeleted": false,
 			"id": "yUuzETzF",
 			"fillStyle": "solid",
@@ -3348,7 +3366,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927702,
 			"link": null,
 			"locked": false,
 			"fontSize": 7.566059653468985,
@@ -3364,8 +3382,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 1016,
-			"versionNonce": 8001257,
+			"version": 1078,
+			"versionNonce": 661130430,
 			"isDeleted": false,
 			"id": "I5U7WcjR",
 			"fillStyle": "solid",
@@ -3391,7 +3409,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484758,
+			"updated": 1694624927702,
 			"link": null,
 			"locked": false,
 			"fontSize": 10.369096616707518,
@@ -3407,8 +3425,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "arrow",
-			"version": 1198,
-			"versionNonce": 1829103655,
+			"version": 1412,
+			"versionNonce": 1819977250,
 			"isDeleted": false,
 			"id": "royI-XaIrlJptd4iHJ9o8",
 			"fillStyle": "solid",
@@ -3429,7 +3447,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927702,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -3454,8 +3472,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "rectangle",
-			"version": 1025,
-			"versionNonce": 1019826633,
+			"version": 1087,
+			"versionNonce": 713278718,
 			"isDeleted": false,
 			"id": "MQ7FgB1YVPJ9PodsNR9G4",
 			"fillStyle": "solid",
@@ -3478,14 +3496,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927702,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 1079,
-			"versionNonce": 1283738439,
+			"version": 1141,
+			"versionNonce": 71668194,
 			"isDeleted": false,
 			"id": "Bl_ksqKlmGXdDQQo-3Otv",
 			"fillStyle": "solid",
@@ -3508,14 +3526,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927702,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 1036,
-			"versionNonce": 1697525929,
+			"version": 1098,
+			"versionNonce": 2046719294,
 			"isDeleted": false,
 			"id": "iNTdg3esQFSpuw1AjqF9x",
 			"fillStyle": "solid",
@@ -3538,14 +3556,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927702,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 1044,
-			"versionNonce": 1888045671,
+			"version": 1106,
+			"versionNonce": 54330786,
 			"isDeleted": false,
 			"id": "UYroTLIDCAGIHLXLdn5u7",
 			"fillStyle": "solid",
@@ -3568,14 +3586,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927702,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 1098,
-			"versionNonce": 794047369,
+			"version": 1160,
+			"versionNonce": 523836798,
 			"isDeleted": false,
 			"id": "FO8OOVX3HHQ4QXZX9ApCq",
 			"fillStyle": "solid",
@@ -3598,14 +3616,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927702,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 1055,
-			"versionNonce": 1172399495,
+			"version": 1117,
+			"versionNonce": 1653604706,
 			"isDeleted": false,
 			"id": "9-MdBkppPmn-OwSADQfmk",
 			"fillStyle": "solid",
@@ -3628,14 +3646,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927702,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 1075,
-			"versionNonce": 259447401,
+			"version": 1137,
+			"versionNonce": 1333050814,
 			"isDeleted": false,
 			"id": "RuC9s9RjyvZhpdvltMuxj",
 			"fillStyle": "solid",
@@ -3658,14 +3676,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927702,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 1122,
-			"versionNonce": 1808342183,
+			"version": 1184,
+			"versionNonce": 495813922,
 			"isDeleted": false,
 			"id": "JPyhBfRl7xdcT-iDOpdD4",
 			"fillStyle": "solid",
@@ -3688,14 +3706,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927702,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 1082,
-			"versionNonce": 1717675337,
+			"version": 1144,
+			"versionNonce": 1876055550,
 			"isDeleted": false,
 			"id": "dGQP5yjdWLNJAtguZTlyW",
 			"fillStyle": "solid",
@@ -3718,14 +3736,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927702,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 1096,
-			"versionNonce": 1710026695,
+			"version": 1158,
+			"versionNonce": 1839501538,
 			"isDeleted": false,
 			"id": "V2QcUhAvTT0kp5z2Xpjdv",
 			"fillStyle": "solid",
@@ -3748,14 +3766,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927702,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 1168,
-			"versionNonce": 1869616169,
+			"version": 1230,
+			"versionNonce": 424863294,
 			"isDeleted": false,
 			"id": "BLLYH9bGbZPhn3G77cSGZ",
 			"fillStyle": "solid",
@@ -3778,14 +3796,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927702,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 1129,
-			"versionNonce": 241786599,
+			"version": 1191,
+			"versionNonce": 107226274,
 			"isDeleted": false,
 			"id": "0dMPhmRQsnwMBiGs-Wr0e",
 			"fillStyle": "solid",
@@ -3808,14 +3826,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927702,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "line",
-			"version": 5685,
-			"versionNonce": 1854777097,
+			"version": 5747,
+			"versionNonce": 483880574,
 			"isDeleted": false,
 			"id": "iWv531Ck_NSB9hbSoL8nB",
 			"fillStyle": "solid",
@@ -3838,7 +3856,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927702,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -3875,8 +3893,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 1080,
-			"versionNonce": 1204480519,
+			"version": 1142,
+			"versionNonce": 1367031906,
 			"isDeleted": false,
 			"id": "U5Kn1Xl2ZJHnxFkvQ6A6A",
 			"fillStyle": "solid",
@@ -3899,7 +3917,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927702,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -3928,8 +3946,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 1422,
-			"versionNonce": 506846697,
+			"version": 1484,
+			"versionNonce": 119598782,
 			"isDeleted": false,
 			"id": "a9XmQxMt",
 			"fillStyle": "solid",
@@ -3951,7 +3969,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927702,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.1573559414856955,
@@ -3967,8 +3985,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 1421,
-			"versionNonce": 1863192871,
+			"version": 1483,
+			"versionNonce": 716760098,
 			"isDeleted": false,
 			"id": "Gs0sKgmE",
 			"fillStyle": "solid",
@@ -3990,7 +4008,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927702,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.1573559414856955,
@@ -4006,8 +4024,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 1407,
-			"versionNonce": 1567897801,
+			"version": 1469,
+			"versionNonce": 617637630,
 			"isDeleted": false,
 			"id": "37b9byo4",
 			"fillStyle": "solid",
@@ -4029,7 +4047,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927702,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.1573559414856955,
@@ -4045,8 +4063,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 1417,
-			"versionNonce": 228545607,
+			"version": 1479,
+			"versionNonce": 470552546,
 			"isDeleted": false,
 			"id": "9YBG04Nd",
 			"fillStyle": "solid",
@@ -4068,7 +4086,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484758,
+			"updated": 1694624927702,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.1573559414856955,
@@ -4084,8 +4102,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 1419,
-			"versionNonce": 501495721,
+			"version": 1481,
+			"versionNonce": 107403070,
 			"isDeleted": false,
 			"id": "KksIYq0P",
 			"fillStyle": "solid",
@@ -4107,7 +4125,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927702,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.1573559414856955,
@@ -4123,8 +4141,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 1424,
-			"versionNonce": 1264268135,
+			"version": 1486,
+			"versionNonce": 428065698,
 			"isDeleted": false,
 			"id": "1MasIgb9",
 			"fillStyle": "solid",
@@ -4146,7 +4164,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927702,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.1573559414856955,
@@ -4162,8 +4180,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 1456,
-			"versionNonce": 296835721,
+			"version": 1518,
+			"versionNonce": 71647102,
 			"isDeleted": false,
 			"id": "HE7nUbbf",
 			"fillStyle": "solid",
@@ -4185,7 +4203,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927702,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.157355941485695,
@@ -4201,8 +4219,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 1083,
-			"versionNonce": 546188935,
+			"version": 1145,
+			"versionNonce": 1028587362,
 			"isDeleted": false,
 			"id": "cI8c0Y0p",
 			"fillStyle": "solid",
@@ -4224,7 +4242,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927702,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.916280790203481,
@@ -4240,8 +4258,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 1461,
-			"versionNonce": 429334889,
+			"version": 1523,
+			"versionNonce": 1118609342,
 			"isDeleted": false,
 			"id": "SeVlfHsT",
 			"fillStyle": "solid",
@@ -4263,7 +4281,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927702,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.157355941485695,
@@ -4279,8 +4297,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 1457,
-			"versionNonce": 1207223719,
+			"version": 1519,
+			"versionNonce": 62702370,
 			"isDeleted": false,
 			"id": "pCzd9jB2",
 			"fillStyle": "solid",
@@ -4302,7 +4320,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927702,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.157355941485695,
@@ -4318,8 +4336,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 1467,
-			"versionNonce": 1927351369,
+			"version": 1529,
+			"versionNonce": 901642238,
 			"isDeleted": false,
 			"id": "6F1Hv76H",
 			"fillStyle": "solid",
@@ -4341,7 +4359,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927702,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.157355941485695,
@@ -4357,8 +4375,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 1473,
-			"versionNonce": 1891334343,
+			"version": 1535,
+			"versionNonce": 121376482,
 			"isDeleted": false,
 			"id": "Uysnd4eB",
 			"fillStyle": "solid",
@@ -4380,7 +4398,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927702,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.157355941485695,
@@ -4396,8 +4414,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 1471,
-			"versionNonce": 627743529,
+			"version": 1533,
+			"versionNonce": 628770878,
 			"isDeleted": false,
 			"id": "6yXUs0K2",
 			"fillStyle": "solid",
@@ -4419,7 +4437,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.157355941485695,
@@ -4435,8 +4453,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "rectangle",
-			"version": 819,
-			"versionNonce": 813615079,
+			"version": 881,
+			"versionNonce": 1012654754,
 			"isDeleted": false,
 			"id": "bvDNjcBvVlx4sXWyyL4Nd",
 			"fillStyle": "solid",
@@ -4457,14 +4475,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 816,
-			"versionNonce": 832523785,
+			"version": 878,
+			"versionNonce": 834834558,
 			"isDeleted": false,
 			"id": "Mw6iVEL7kSFpzLv8F8Hn5",
 			"fillStyle": "solid",
@@ -4485,14 +4503,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 791,
-			"versionNonce": 894120711,
+			"version": 853,
+			"versionNonce": 768294498,
 			"isDeleted": false,
 			"id": "ayXviAoB3ZJW7BSJ8t7-6",
 			"fillStyle": "solid",
@@ -4513,14 +4531,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 886,
-			"versionNonce": 2121966825,
+			"version": 948,
+			"versionNonce": 1448595646,
 			"isDeleted": false,
 			"id": "mFJ-q08OY2BpMLIDd87Q0",
 			"fillStyle": "solid",
@@ -4546,14 +4564,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "line",
-			"version": 900,
-			"versionNonce": 933050919,
+			"version": 962,
+			"versionNonce": 945365538,
 			"isDeleted": false,
 			"id": "cc1RUjGieX3fw70jT3JAh",
 			"fillStyle": "solid",
@@ -4574,7 +4592,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -4595,8 +4613,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 1273,
-			"versionNonce": 126361545,
+			"version": 1335,
+			"versionNonce": 1859848446,
 			"isDeleted": false,
 			"id": "FjGW6nn4",
 			"fillStyle": "solid",
@@ -4627,7 +4645,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"fontSize": 4.5706035744102875,
@@ -4643,8 +4661,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "arrow",
-			"version": 2105,
-			"versionNonce": 744578375,
+			"version": 2167,
+			"versionNonce": 1190432226,
 			"isDeleted": false,
 			"id": "iyCl0VkS4wtEqqay_76ZR",
 			"fillStyle": "solid",
@@ -4665,7 +4683,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -4694,8 +4712,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "arrow",
-			"version": 319,
-			"versionNonce": 1256406697,
+			"version": 381,
+			"versionNonce": 986528062,
 			"isDeleted": false,
 			"id": "vw9NKrcHMjUCAH9CnX90-",
 			"fillStyle": "solid",
@@ -4714,7 +4732,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -4743,8 +4761,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 997,
-			"versionNonce": 921967719,
+			"version": 1059,
+			"versionNonce": 246186402,
 			"isDeleted": false,
 			"id": "BVtissw8",
 			"fillStyle": "solid",
@@ -4771,7 +4789,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.916280790203481,
@@ -4787,8 +4805,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 1024,
-			"versionNonce": 2000126345,
+			"version": 1086,
+			"versionNonce": 1636786558,
 			"isDeleted": false,
 			"id": "AG3LTNN9CYcGmSk-7Ycvr",
 			"fillStyle": "solid",
@@ -4809,7 +4827,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -4830,8 +4848,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 1121,
-			"versionNonce": 1528952711,
+			"version": 1183,
+			"versionNonce": 1253047650,
 			"isDeleted": false,
 			"id": "oT5XhZLj",
 			"fillStyle": "solid",
@@ -4853,7 +4871,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.916280790203481,
@@ -4869,8 +4887,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "rectangle",
-			"version": 398,
-			"versionNonce": 1505781865,
+			"version": 460,
+			"versionNonce": 1986167230,
 			"isDeleted": false,
 			"id": "NsLJeFJ2y2U0HmC2vylF9",
 			"fillStyle": "solid",
@@ -4894,14 +4912,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "freedraw",
-			"version": 241,
-			"versionNonce": 1864855207,
+			"version": 303,
+			"versionNonce": 2018378018,
 			"isDeleted": false,
 			"id": "I7P2QUOrxmiZnPXhGDaJS",
 			"fillStyle": "solid",
@@ -4920,7 +4938,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -5195,8 +5213,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "freedraw",
-			"version": 313,
-			"versionNonce": 206140233,
+			"version": 375,
+			"versionNonce": 2087164414,
 			"isDeleted": false,
 			"id": "igGNrQmfQi0npvCPXaF9B",
 			"fillStyle": "solid",
@@ -5215,7 +5233,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -5482,8 +5500,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "freedraw",
-			"version": 333,
-			"versionNonce": 1303445959,
+			"version": 395,
+			"versionNonce": 318082274,
 			"isDeleted": false,
 			"id": "Aichd5-BMjJ2faZXEG2NC",
 			"fillStyle": "solid",
@@ -5502,7 +5520,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -5693,8 +5711,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 485,
-			"versionNonce": 1663967785,
+			"version": 547,
+			"versionNonce": 1788848702,
 			"isDeleted": false,
 			"id": "g5nsJJuq",
 			"fillStyle": "solid",
@@ -5713,7 +5731,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"fontSize": 10.07824334525522,
@@ -5729,8 +5747,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 924,
-			"versionNonce": 1205547239,
+			"version": 986,
+			"versionNonce": 1345691810,
 			"isDeleted": false,
 			"id": "eI215DUz",
 			"fillStyle": "solid",
@@ -5749,7 +5767,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"fontSize": 9.3529869710874,
@@ -5765,8 +5783,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 256,
-			"versionNonce": 458880265,
+			"version": 318,
+			"versionNonce": 803975806,
 			"isDeleted": false,
 			"id": "07nlurF2AsHJI81jxjwcA",
 			"fillStyle": "solid",
@@ -5785,7 +5803,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -5806,8 +5824,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 283,
-			"versionNonce": 1462926343,
+			"version": 345,
+			"versionNonce": 1539128418,
 			"isDeleted": false,
 			"id": "QP_WdstzTMdx_Nv5VDAiK",
 			"fillStyle": "solid",
@@ -5826,7 +5844,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -5847,8 +5865,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 298,
-			"versionNonce": 1212705769,
+			"version": 360,
+			"versionNonce": 923579070,
 			"isDeleted": false,
 			"id": "WMWhnruQnDaopyi3QB50q",
 			"fillStyle": "solid",
@@ -5867,7 +5885,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -5888,8 +5906,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 197,
-			"versionNonce": 263414567,
+			"version": 259,
+			"versionNonce": 324755490,
 			"isDeleted": false,
 			"id": "SqoSEYHV",
 			"fillStyle": "solid",
@@ -5908,7 +5926,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -5924,8 +5942,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 288,
-			"versionNonce": 33883849,
+			"version": 350,
+			"versionNonce": 1789111038,
 			"isDeleted": false,
 			"id": "LbHuzFYya9VRUPB7gihWJ",
 			"fillStyle": "solid",
@@ -5944,7 +5962,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -5965,8 +5983,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 315,
-			"versionNonce": 1372218951,
+			"version": 377,
+			"versionNonce": 1124010978,
 			"isDeleted": false,
 			"id": "YgslqldIffy052TK0268G",
 			"fillStyle": "solid",
@@ -5985,7 +6003,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -6006,8 +6024,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 330,
-			"versionNonce": 1395344809,
+			"version": 392,
+			"versionNonce": 959552318,
 			"isDeleted": false,
 			"id": "Wef_bvzcjqJaq3rzHDZDp",
 			"fillStyle": "solid",
@@ -6026,7 +6044,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -6047,8 +6065,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 229,
-			"versionNonce": 1012139367,
+			"version": 291,
+			"versionNonce": 1622622114,
 			"isDeleted": false,
 			"id": "EExGXFwQ",
 			"fillStyle": "solid",
@@ -6067,7 +6085,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -6083,8 +6101,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "arrow",
-			"version": 414,
-			"versionNonce": 1726392457,
+			"version": 477,
+			"versionNonce": 420971390,
 			"isDeleted": false,
 			"id": "nUudDTYydqFtDN95qb_Kb",
 			"fillStyle": "solid",
@@ -6103,7 +6121,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -6128,8 +6146,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 445,
-			"versionNonce": 1587331207,
+			"version": 507,
+			"versionNonce": 1219689314,
 			"isDeleted": false,
 			"id": "QwRVfrB0",
 			"fillStyle": "solid",
@@ -6148,7 +6166,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -6164,8 +6182,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "arrow",
-			"version": 792,
-			"versionNonce": 1995616105,
+			"version": 854,
+			"versionNonce": 211182526,
 			"isDeleted": false,
 			"id": "0DbhOsjPiIUB8ehGsnLfn",
 			"fillStyle": "solid",
@@ -6184,7 +6202,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -6213,8 +6231,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 1968,
-			"versionNonce": 711006119,
+			"version": 2030,
+			"versionNonce": 2034319138,
 			"isDeleted": false,
 			"id": "MvsSRO28",
 			"fillStyle": "solid",
@@ -6240,7 +6258,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"fontSize": 10.585570684920384,
@@ -6256,8 +6274,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 1065,
-			"versionNonce": 2040191561,
+			"version": 1127,
+			"versionNonce": 634338302,
 			"isDeleted": false,
 			"id": "sPtHbw3K",
 			"fillStyle": "solid",
@@ -6278,7 +6296,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"fontSize": 10.647246789680322,
@@ -6294,8 +6312,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 1104,
-			"versionNonce": 634227399,
+			"version": 1166,
+			"versionNonce": 1322322658,
 			"isDeleted": false,
 			"id": "uHUAWD8r",
 			"fillStyle": "solid",
@@ -6316,7 +6334,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"fontSize": 10.647246789680322,
@@ -6332,8 +6350,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "rectangle",
-			"version": 303,
-			"versionNonce": 263891241,
+			"version": 365,
+			"versionNonce": 180554814,
 			"isDeleted": false,
 			"id": "TQZR8lCd-WnHc3zfD8hhC",
 			"fillStyle": "solid",
@@ -6352,14 +6370,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 312,
-			"versionNonce": 1568578023,
+			"version": 374,
+			"versionNonce": 1072783010,
 			"isDeleted": false,
 			"id": "TY3xt_xRV4k-OKgQBtO6I",
 			"fillStyle": "solid",
@@ -6383,14 +6401,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 319,
-			"versionNonce": 851287049,
+			"version": 381,
+			"versionNonce": 2035471486,
 			"isDeleted": false,
 			"id": "OI-gKiWO4S1VfL0DLQLdD",
 			"fillStyle": "solid",
@@ -6414,14 +6432,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 374,
-			"versionNonce": 377537799,
+			"version": 436,
+			"versionNonce": 424753762,
 			"isDeleted": false,
 			"id": "TGiMZKWg",
 			"fillStyle": "solid",
@@ -6445,7 +6463,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"fontSize": 5.3497816492634955,
@@ -6461,8 +6479,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "rectangle",
-			"version": 217,
-			"versionNonce": 580858601,
+			"version": 279,
+			"versionNonce": 1262458046,
 			"isDeleted": false,
 			"id": "jc0x-6CvkircElloun5ND",
 			"fillStyle": "solid",
@@ -6490,14 +6508,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 249,
-			"versionNonce": 1079020583,
+			"version": 311,
+			"versionNonce": 968859170,
 			"isDeleted": false,
 			"id": "3QHZzcopK8F-vDoGLQ7Rg",
 			"fillStyle": "solid",
@@ -6525,14 +6543,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 369,
-			"versionNonce": 334163401,
+			"version": 431,
+			"versionNonce": 2049592574,
 			"isDeleted": false,
 			"id": "LvtVBoeNSTww3xeBiK9SL",
 			"fillStyle": "solid",
@@ -6556,14 +6574,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 516,
-			"versionNonce": 651849543,
+			"version": 578,
+			"versionNonce": 1311476194,
 			"isDeleted": false,
 			"id": "hTX6tdc5My8_H4L8Vuz0g",
 			"fillStyle": "solid",
@@ -6591,14 +6609,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 310,
-			"versionNonce": 498879657,
+			"version": 372,
+			"versionNonce": 596901182,
 			"isDeleted": false,
 			"id": "o4Qz9htp",
 			"fillStyle": "solid",
@@ -6617,7 +6635,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.504967618399061,
@@ -6633,8 +6651,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "arrow",
-			"version": 238,
-			"versionNonce": 1685778023,
+			"version": 300,
+			"versionNonce": 228851106,
 			"isDeleted": false,
 			"id": "E9XgbVuuXn8CdwyU7fyAV",
 			"fillStyle": "solid",
@@ -6653,7 +6671,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -6682,8 +6700,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "arrow",
-			"version": 397,
-			"versionNonce": 1740558217,
+			"version": 459,
+			"versionNonce": 215852414,
 			"isDeleted": false,
 			"id": "77jfQn3dUSHp1ESEYUMvD",
 			"fillStyle": "solid",
@@ -6702,7 +6720,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -6731,8 +6749,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "arrow",
-			"version": 268,
-			"versionNonce": 335448455,
+			"version": 330,
+			"versionNonce": 1968699746,
 			"isDeleted": false,
 			"id": "z2SAk1oPtZIO3sm7AtiGU",
 			"fillStyle": "solid",
@@ -6751,7 +6769,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -6780,8 +6798,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "arrow",
-			"version": 507,
-			"versionNonce": 405665385,
+			"version": 569,
+			"versionNonce": 659047870,
 			"isDeleted": false,
 			"id": "fNJoLRSlwcAB62tuC6jzL",
 			"fillStyle": "solid",
@@ -6800,7 +6818,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -6829,8 +6847,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "arrow",
-			"version": 366,
-			"versionNonce": 1117896871,
+			"version": 428,
+			"versionNonce": 76971298,
 			"isDeleted": false,
 			"id": "11Ggs3TmVAU2Mh1ntj-FD",
 			"fillStyle": "solid",
@@ -6849,7 +6867,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -6878,8 +6896,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "arrow",
-			"version": 366,
-			"versionNonce": 30753097,
+			"version": 428,
+			"versionNonce": 334814718,
 			"isDeleted": false,
 			"id": "h0bH8eHK48OWatRh9EYlI",
 			"fillStyle": "solid",
@@ -6898,7 +6916,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -6927,8 +6945,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "arrow",
-			"version": 434,
-			"versionNonce": 571544519,
+			"version": 496,
+			"versionNonce": 2026801378,
 			"isDeleted": false,
 			"id": "uprZ4BV5xWOfFfNFHd64u",
 			"fillStyle": "solid",
@@ -6947,7 +6965,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -6976,8 +6994,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "arrow",
-			"version": 390,
-			"versionNonce": 303050793,
+			"version": 452,
+			"versionNonce": 669281854,
 			"isDeleted": false,
 			"id": "hTwbH8uA-W9zQyIn85b-L",
 			"fillStyle": "solid",
@@ -6996,7 +7014,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -7025,8 +7043,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "arrow",
-			"version": 631,
-			"versionNonce": 2053702375,
+			"version": 693,
+			"versionNonce": 160373922,
 			"isDeleted": false,
 			"id": "ufL38iUXmAO7rG3wFaTHT",
 			"fillStyle": "solid",
@@ -7045,7 +7063,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -7074,8 +7092,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 214,
-			"versionNonce": 2127184649,
+			"version": 276,
+			"versionNonce": 1878521470,
 			"isDeleted": false,
 			"id": "OSYWBieCASg6o0GqNqyfb",
 			"fillStyle": "solid",
@@ -7094,7 +7112,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -7115,8 +7133,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 587,
-			"versionNonce": 1547046407,
+			"version": 649,
+			"versionNonce": 612841570,
 			"isDeleted": false,
 			"id": "t2Dokhbr",
 			"fillStyle": "solid",
@@ -7140,7 +7158,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.549032689503458,
@@ -7156,8 +7174,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 468,
-			"versionNonce": 880736745,
+			"version": 530,
+			"versionNonce": 888174270,
 			"isDeleted": false,
 			"id": "jX5a6Y2i",
 			"fillStyle": "solid",
@@ -7181,7 +7199,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"fontSize": 5.76581328593598,
@@ -7197,8 +7215,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 186,
-			"versionNonce": 309638439,
+			"version": 248,
+			"versionNonce": 696638498,
 			"isDeleted": false,
 			"id": "-lYHfH0z0fniPbW9WqYYk",
 			"fillStyle": "solid",
@@ -7217,7 +7235,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -7238,8 +7256,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 187,
-			"versionNonce": 70898889,
+			"version": 249,
+			"versionNonce": 2137976574,
 			"isDeleted": false,
 			"id": "XbXoqP9nCzOqTS9VUYRZy",
 			"fillStyle": "solid",
@@ -7258,7 +7276,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -7279,8 +7297,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 258,
-			"versionNonce": 1418819655,
+			"version": 320,
+			"versionNonce": 645531618,
 			"isDeleted": false,
 			"id": "khrsg5fpVDNG_uYKYOLZI",
 			"fillStyle": "solid",
@@ -7299,7 +7317,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -7320,8 +7338,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 197,
-			"versionNonce": 295064489,
+			"version": 259,
+			"versionNonce": 468999998,
 			"isDeleted": false,
 			"id": "hcbGW85oKlPX7AI3rj2uH",
 			"fillStyle": "solid",
@@ -7340,7 +7358,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -7361,8 +7379,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 356,
-			"versionNonce": 946394983,
+			"version": 418,
+			"versionNonce": 326286242,
 			"isDeleted": false,
 			"id": "xheY9rmw",
 			"fillStyle": "solid",
@@ -7388,7 +7406,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484759,
+			"updated": 1694624927703,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.063292207422434,
@@ -7404,8 +7422,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 357,
-			"versionNonce": 12580489,
+			"version": 419,
+			"versionNonce": 518113150,
 			"isDeleted": false,
 			"id": "nqkJzfJy",
 			"fillStyle": "solid",
@@ -7426,7 +7444,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.063292207422434,
@@ -7442,8 +7460,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 358,
-			"versionNonce": 1682395783,
+			"version": 420,
+			"versionNonce": 245299042,
 			"isDeleted": false,
 			"id": "qEoaS5s2",
 			"fillStyle": "solid",
@@ -7464,7 +7482,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.063292207422434,
@@ -7480,8 +7498,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 399,
-			"versionNonce": 1685208425,
+			"version": 461,
+			"versionNonce": 1752704958,
 			"isDeleted": false,
 			"id": "p5jAErSQ",
 			"fillStyle": "solid",
@@ -7511,7 +7529,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484759,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false,
 			"fontSize": 8.675250189791656,
@@ -7527,8 +7545,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 341,
-			"versionNonce": 15296935,
+			"version": 403,
+			"versionNonce": 407747362,
 			"isDeleted": false,
 			"id": "8tCSGKiB",
 			"fillStyle": "solid",
@@ -7549,7 +7567,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false,
 			"fontSize": 8.675250189791656,
@@ -7565,8 +7583,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 382,
-			"versionNonce": 1811458121,
+			"version": 444,
+			"versionNonce": 685277182,
 			"isDeleted": false,
 			"id": "6gk7JcSA",
 			"fillStyle": "solid",
@@ -7592,7 +7610,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484759,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false,
 			"fontSize": 8.675250189791656,
@@ -7608,8 +7626,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 416,
-			"versionNonce": 1803263175,
+			"version": 478,
+			"versionNonce": 1324222178,
 			"isDeleted": false,
 			"id": "LcEFuOl4",
 			"fillStyle": "solid",
@@ -7635,7 +7653,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484759,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false,
 			"fontSize": 8.675250189791656,
@@ -7651,8 +7669,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "arrow",
-			"version": 125,
-			"versionNonce": 1362016041,
+			"version": 187,
+			"versionNonce": 1677971518,
 			"isDeleted": false,
 			"id": "IAkDb2le_wgcpKD2qMfuQ",
 			"fillStyle": "solid",
@@ -7671,7 +7689,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -7696,8 +7714,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "rectangle",
-			"version": 253,
-			"versionNonce": 664431591,
+			"version": 315,
+			"versionNonce": 722393762,
 			"isDeleted": false,
 			"id": "SGTLa5Cz6itXz-PeIIphu",
 			"fillStyle": "solid",
@@ -7718,14 +7736,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "arrow",
-			"version": 324,
-			"versionNonce": 109046281,
+			"version": 386,
+			"versionNonce": 1977292926,
 			"isDeleted": false,
 			"id": "Riuoy42pehwfY_c4h1tSV",
 			"fillStyle": "solid",
@@ -7746,7 +7764,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -7775,8 +7793,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 449,
-			"versionNonce": 290608903,
+			"version": 511,
+			"versionNonce": 996095586,
 			"isDeleted": false,
 			"id": "1TiAGwiAprpUaEt32ecxh",
 			"fillStyle": "solid",
@@ -7797,7 +7815,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -7822,8 +7840,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 402,
-			"versionNonce": 619167977,
+			"version": 537,
+			"versionNonce": 371153086,
 			"isDeleted": false,
 			"id": "J5BLBW84",
 			"fillStyle": "solid",
@@ -7832,7 +7850,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 387.9376169418588,
+			"x": 388.46357280364003,
 			"y": -1296.907033658189,
 			"strokeColor": "#343a40",
 			"backgroundColor": "#e9ecef",
@@ -7844,7 +7862,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.834272529542457,
@@ -7860,8 +7878,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 255,
-			"versionNonce": 1327488551,
+			"version": 317,
+			"versionNonce": 1622022690,
 			"isDeleted": false,
 			"id": "QIc4hZ3m",
 			"fillStyle": "solid",
@@ -7882,7 +7900,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.834272529542457,
@@ -7898,8 +7916,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 262,
-			"versionNonce": 435272649,
+			"version": 324,
+			"versionNonce": 1550946558,
 			"isDeleted": false,
 			"id": "xYmrh8PP",
 			"fillStyle": "solid",
@@ -7920,7 +7938,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.834272529542457,
@@ -7936,8 +7954,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 259,
-			"versionNonce": 66027847,
+			"version": 394,
+			"versionNonce": 166364642,
 			"isDeleted": false,
 			"id": "fPpEV8EQ",
 			"fillStyle": "solid",
@@ -7946,7 +7964,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 401.9539576533656,
+			"x": 402.47991351514685,
 			"y": -1087.3893619487542,
 			"strokeColor": "#343a40",
 			"backgroundColor": "#e9ecef",
@@ -7958,7 +7976,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -7974,8 +7992,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 279,
-			"versionNonce": 364468905,
+			"version": 341,
+			"versionNonce": 1146274110,
 			"isDeleted": false,
 			"id": "HHuF3q9a",
 			"fillStyle": "solid",
@@ -7996,7 +8014,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false,
 			"fontSize": 13.10971404792635,
@@ -8012,8 +8030,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 349,
-			"versionNonce": 1092468839,
+			"version": 411,
+			"versionNonce": 1881373090,
 			"isDeleted": false,
 			"id": "nScKOifX",
 			"fillStyle": "solid",
@@ -8034,7 +8052,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false,
 			"fontSize": 13.119705304550207,
@@ -8050,8 +8068,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 1629,
-			"versionNonce": 954867081,
+			"version": 1691,
+			"versionNonce": 824437118,
 			"isDeleted": false,
 			"id": "fahedI6W",
 			"fillStyle": "solid",
@@ -8070,7 +8088,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484759,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false,
 			"fontSize": 10.086340901312242,
@@ -8086,8 +8104,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 870,
-			"versionNonce": 947329927,
+			"version": 932,
+			"versionNonce": 1384641890,
 			"isDeleted": false,
 			"id": "UEsrbenu",
 			"fillStyle": "solid",
@@ -8106,7 +8124,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -8122,8 +8140,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 713,
-			"versionNonce": 46105705,
+			"version": 775,
+			"versionNonce": 1915095486,
 			"isDeleted": false,
 			"id": "edaK2X5K",
 			"fillStyle": "solid",
@@ -8142,7 +8160,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false,
 			"fontSize": 17.208523084071167,
@@ -8158,8 +8176,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 875,
-			"versionNonce": 775426727,
+			"version": 937,
+			"versionNonce": 845609250,
 			"isDeleted": false,
 			"id": "MnYpU6Qn",
 			"fillStyle": "solid",
@@ -8178,7 +8196,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false,
 			"fontSize": 17.208523084071167,
@@ -8194,8 +8212,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 882,
-			"versionNonce": 2131038025,
+			"version": 944,
+			"versionNonce": 1182409214,
 			"isDeleted": false,
 			"id": "O01xM74D",
 			"fillStyle": "solid",
@@ -8214,7 +8232,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false,
 			"fontSize": 17.208523084071167,
@@ -8230,8 +8248,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 677,
-			"versionNonce": 722281927,
+			"version": 739,
+			"versionNonce": 254772450,
 			"isDeleted": false,
 			"id": "NCWfG4MU",
 			"fillStyle": "solid",
@@ -8250,7 +8268,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -8266,8 +8284,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 712,
-			"versionNonce": 873872937,
+			"version": 774,
+			"versionNonce": 1629565502,
 			"isDeleted": false,
 			"id": "ux3MnCOZ",
 			"fillStyle": "solid",
@@ -8286,7 +8304,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -8302,8 +8320,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 829,
-			"versionNonce": 1846727911,
+			"version": 891,
+			"versionNonce": 577804450,
 			"isDeleted": false,
 			"id": "Gk7Wv4NJ",
 			"fillStyle": "solid",
@@ -8322,7 +8340,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -8338,8 +8356,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 861,
-			"versionNonce": 1356763401,
+			"version": 923,
+			"versionNonce": 1828469374,
 			"isDeleted": false,
 			"id": "qNqr309G",
 			"fillStyle": "solid",
@@ -8358,7 +8376,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -8374,8 +8392,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 951,
-			"versionNonce": 517316615,
+			"version": 1013,
+			"versionNonce": 467219554,
 			"isDeleted": false,
 			"id": "HcXDrmjX",
 			"fillStyle": "solid",
@@ -8394,7 +8412,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false,
 			"fontSize": 15.389215957299818,
@@ -8410,8 +8428,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 923,
-			"versionNonce": 450463721,
+			"version": 985,
+			"versionNonce": 281819838,
 			"isDeleted": false,
 			"id": "HiOQ4Ji0",
 			"fillStyle": "solid",
@@ -8430,7 +8448,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -8446,8 +8464,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "rectangle",
-			"version": 725,
-			"versionNonce": 1062340391,
+			"version": 787,
+			"versionNonce": 1563973666,
 			"isDeleted": false,
 			"id": "ge8IkgiKzplSn7x_GAYcj",
 			"fillStyle": "solid",
@@ -8468,14 +8486,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 819,
-			"versionNonce": 470983369,
+			"version": 881,
+			"versionNonce": 1932669694,
 			"isDeleted": false,
 			"id": "ACZByJr4",
 			"fillStyle": "solid",
@@ -8494,7 +8512,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -8510,8 +8528,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "rectangle",
-			"version": 856,
-			"versionNonce": 1576307271,
+			"version": 918,
+			"versionNonce": 914162658,
 			"isDeleted": false,
 			"id": "MX9fDKn_36RJUprYpgACn",
 			"fillStyle": "solid",
@@ -8532,14 +8550,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 1054,
-			"versionNonce": 287662505,
+			"version": 1116,
+			"versionNonce": 1051665214,
 			"isDeleted": false,
 			"id": "tJJyrr8us2CSVHOnbPT2d",
 			"fillStyle": "solid",
@@ -8560,14 +8578,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 806,
-			"versionNonce": 127510887,
+			"version": 868,
+			"versionNonce": 565589922,
 			"isDeleted": false,
 			"id": "ADdONWUY",
 			"fillStyle": "solid",
@@ -8586,7 +8604,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -8602,8 +8620,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 179,
-			"versionNonce": 389891209,
+			"version": 314,
+			"versionNonce": 631507838,
 			"isDeleted": false,
 			"id": "G2zi7bzr",
 			"fillStyle": "solid",
@@ -8612,7 +8630,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 687.7650648988887,
+			"x": 688.2910207606699,
 			"y": -1123.6027440188786,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
@@ -8624,7 +8642,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -8640,8 +8658,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 501,
-			"versionNonce": 2039342215,
+			"version": 563,
+			"versionNonce": 2131948386,
 			"isDeleted": false,
 			"id": "jqdOhvUK",
 			"fillStyle": "solid",
@@ -8660,7 +8678,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false,
 			"fontSize": 10.268190902098102,
@@ -8676,8 +8694,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 176,
-			"versionNonce": 437635945,
+			"version": 238,
+			"versionNonce": 1716644798,
 			"isDeleted": false,
 			"id": "FV5rkR-pH3oq14htnFeCY",
 			"fillStyle": "solid",
@@ -8698,7 +8716,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -8719,8 +8737,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 114,
-			"versionNonce": 328055719,
+			"version": 176,
+			"versionNonce": 1357002530,
 			"isDeleted": false,
 			"id": "PK4kMh7bV3d5bxs9ZlzxP",
 			"fillStyle": "solid",
@@ -8741,7 +8759,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -8762,8 +8780,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "rectangle",
-			"version": 208,
-			"versionNonce": 33191497,
+			"version": 270,
+			"versionNonce": 1322894334,
 			"isDeleted": false,
 			"id": "0m5qAylCr_4yJGTSFBkx-",
 			"fillStyle": "solid",
@@ -8784,14 +8802,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 489,
-			"versionNonce": 163950279,
+			"version": 551,
+			"versionNonce": 2006123234,
 			"isDeleted": false,
 			"id": "1NcIaTgt",
 			"fillStyle": "solid",
@@ -8810,7 +8828,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -8826,8 +8844,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 493,
-			"versionNonce": 566674729,
+			"version": 555,
+			"versionNonce": 1094489150,
 			"isDeleted": false,
 			"id": "Ipao83D3WZR_689rDDCqz",
 			"fillStyle": "solid",
@@ -8848,7 +8866,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927704,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -8869,8 +8887,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 611,
-			"versionNonce": 1456618983,
+			"version": 673,
+			"versionNonce": 1840535202,
 			"isDeleted": false,
 			"id": "HHVC6-KZ4TYoo0L5UYofc",
 			"fillStyle": "solid",
@@ -8891,7 +8909,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -8912,8 +8930,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 533,
-			"versionNonce": 1692809225,
+			"version": 595,
+			"versionNonce": 928734334,
 			"isDeleted": false,
 			"id": "N-92Xo7d96igQfZ1SwZqD",
 			"fillStyle": "solid",
@@ -8934,7 +8952,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -8955,8 +8973,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 424,
-			"versionNonce": 1841293575,
+			"version": 486,
+			"versionNonce": 66400866,
 			"isDeleted": false,
 			"id": "KX3VYI_cjtKQXASMRANdJ",
 			"fillStyle": "solid",
@@ -8977,7 +8995,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -8998,8 +9016,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 513,
-			"versionNonce": 1028935401,
+			"version": 575,
+			"versionNonce": 1190599870,
 			"isDeleted": false,
 			"id": "LURoaqLc0V-wGjj0D9TX3",
 			"fillStyle": "solid",
@@ -9020,7 +9038,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -9041,8 +9059,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 236,
-			"versionNonce": 738930727,
+			"version": 351,
+			"versionNonce": 488936994,
 			"isDeleted": false,
 			"id": "6xaelNNE",
 			"fillStyle": "solid",
@@ -9063,7 +9081,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"fontSize": 13.37456924257395,
@@ -9079,8 +9097,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 372,
-			"versionNonce": 1369213385,
+			"version": 434,
+			"versionNonce": 632345854,
 			"isDeleted": false,
 			"id": "00Br2w6k",
 			"fillStyle": "solid",
@@ -9101,7 +9119,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"fontSize": 13.37456924257395,
@@ -9117,8 +9135,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 374,
-			"versionNonce": 195072839,
+			"version": 436,
+			"versionNonce": 1781629410,
 			"isDeleted": false,
 			"id": "dmyc0XwU",
 			"fillStyle": "solid",
@@ -9139,7 +9157,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"fontSize": 13.37456924257395,
@@ -9155,8 +9173,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 374,
-			"versionNonce": 1792698537,
+			"version": 436,
+			"versionNonce": 755598654,
 			"isDeleted": false,
 			"id": "vIK2uR16",
 			"fillStyle": "solid",
@@ -9177,7 +9195,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"fontSize": 13.37456924257395,
@@ -9193,8 +9211,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 188,
-			"versionNonce": 349999719,
+			"version": 303,
+			"versionNonce": 640349602,
 			"isDeleted": false,
 			"id": "FCvhiAZr",
 			"fillStyle": "solid",
@@ -9215,7 +9233,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"fontSize": 7.5636233884852135,
@@ -9231,8 +9249,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 178,
-			"versionNonce": 582577033,
+			"version": 240,
+			"versionNonce": 1583492478,
 			"isDeleted": false,
 			"id": "1ufgsg6b",
 			"fillStyle": "solid",
@@ -9253,7 +9271,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"fontSize": 7.5636233884852135,
@@ -9269,8 +9287,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 286,
-			"versionNonce": 277589383,
+			"version": 401,
+			"versionNonce": 1379922274,
 			"isDeleted": false,
 			"id": "41SeG2WM",
 			"fillStyle": "solid",
@@ -9291,7 +9309,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"fontSize": 8.74695031030679,
@@ -9307,8 +9325,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 368,
-			"versionNonce": 1366626921,
+			"version": 430,
+			"versionNonce": 1727778238,
 			"isDeleted": false,
 			"id": "ritd4zos",
 			"fillStyle": "solid",
@@ -9329,7 +9347,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"fontSize": 8.317429080411559,
@@ -9345,8 +9363,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 385,
-			"versionNonce": 2045404327,
+			"version": 447,
+			"versionNonce": 1908372770,
 			"isDeleted": false,
 			"id": "eoC4vtI7",
 			"fillStyle": "solid",
@@ -9367,7 +9385,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"fontSize": 8.317429080411559,
@@ -9383,8 +9401,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 333,
-			"versionNonce": 1004068169,
+			"version": 395,
+			"versionNonce": 603416062,
 			"isDeleted": false,
 			"id": "qK5Y3LsAWh-8G6VVy13k-",
 			"fillStyle": "solid",
@@ -9403,7 +9421,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -9424,8 +9442,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 129,
-			"versionNonce": 816134087,
+			"version": 191,
+			"versionNonce": 1176010978,
 			"isDeleted": false,
 			"id": "iQb4nOTXc33Yig5m_9mB8",
 			"fillStyle": "solid",
@@ -9444,7 +9462,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -9465,8 +9483,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 280,
-			"versionNonce": 20991017,
+			"version": 365,
+			"versionNonce": 643167806,
 			"isDeleted": false,
 			"id": "3eraPiSd",
 			"fillStyle": "solid",
@@ -9487,7 +9505,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"fontSize": 11.44462007292565,
@@ -9503,8 +9521,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "rectangle",
-			"version": 633,
-			"versionNonce": 1792583399,
+			"version": 695,
+			"versionNonce": 182064290,
 			"isDeleted": false,
 			"id": "LOD270a3MrSb9ux-3bUgv",
 			"fillStyle": "solid",
@@ -9528,14 +9546,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"id": "9gjEV7GB"
 				}
 			],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 269,
-			"versionNonce": 1234624265,
+			"version": 331,
+			"versionNonce": 922254974,
 			"isDeleted": false,
 			"id": "9gjEV7GB",
 			"fillStyle": "solid",
@@ -9554,7 +9572,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.382034614117987,
@@ -9570,8 +9588,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "freedraw",
-			"version": 601,
-			"versionNonce": 1729180167,
+			"version": 663,
+			"versionNonce": 833826914,
 			"isDeleted": false,
 			"id": "ENqrAPTuVSVXeDqPuQBwV",
 			"fillStyle": "solid",
@@ -9590,7 +9608,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -9681,8 +9699,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "freedraw",
-			"version": 604,
-			"versionNonce": 861410793,
+			"version": 666,
+			"versionNonce": 1520434878,
 			"isDeleted": false,
 			"id": "1RuLSnfPwSJ3qiinDmFta",
 			"fillStyle": "solid",
@@ -9701,7 +9719,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -9836,8 +9854,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "rectangle",
-			"version": 652,
-			"versionNonce": 1581996327,
+			"version": 714,
+			"versionNonce": 510841890,
 			"isDeleted": false,
 			"id": "tuvvCiaRQHgtSiyXLxGgC",
 			"fillStyle": "solid",
@@ -9861,14 +9879,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"id": "q5E5x7mx"
 				}
 			],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 298,
-			"versionNonce": 26177737,
+			"version": 360,
+			"versionNonce": 1441625854,
 			"isDeleted": false,
 			"id": "q5E5x7mx",
 			"fillStyle": "solid",
@@ -9887,7 +9905,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"fontSize": 7.240781523571737,
@@ -9903,8 +9921,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 528,
-			"versionNonce": 905157703,
+			"version": 590,
+			"versionNonce": 1661468642,
 			"isDeleted": false,
 			"id": "shUdXLN7",
 			"fillStyle": "solid",
@@ -9925,7 +9943,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"fontSize": 4.679787342056256,
@@ -9941,8 +9959,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 583,
-			"versionNonce": 165179305,
+			"version": 645,
+			"versionNonce": 828499774,
 			"isDeleted": false,
 			"id": "ioO0lQ8z",
 			"fillStyle": "solid",
@@ -9963,7 +9981,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"fontSize": 5.700522179764514,
@@ -9979,8 +9997,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 731,
-			"versionNonce": 1910930279,
+			"version": 793,
+			"versionNonce": 2072097698,
 			"isDeleted": false,
 			"id": "q51amnHL",
 			"fillStyle": "solid",
@@ -10001,7 +10019,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"fontSize": 4.679787342056256,
@@ -10017,8 +10035,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "rectangle",
-			"version": 690,
-			"versionNonce": 1650365065,
+			"version": 752,
+			"versionNonce": 1029590910,
 			"isDeleted": false,
 			"id": "5hYFMvqg-BMM7IZqtuQxa",
 			"fillStyle": "solid",
@@ -10042,14 +10060,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"id": "IIyqccuu"
 				}
 			],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 339,
-			"versionNonce": 1718646407,
+			"version": 401,
+			"versionNonce": 168750946,
 			"isDeleted": false,
 			"id": "IIyqccuu",
 			"fillStyle": "solid",
@@ -10068,7 +10086,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"fontSize": 7.240781523571737,
@@ -10084,8 +10102,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "freedraw",
-			"version": 606,
-			"versionNonce": 1339906409,
+			"version": 668,
+			"versionNonce": 371437502,
 			"isDeleted": false,
 			"id": "85QphKPRx0VBsO7IrDrtV",
 			"fillStyle": "solid",
@@ -10104,7 +10122,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -10195,8 +10213,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "freedraw",
-			"version": 606,
-			"versionNonce": 709758375,
+			"version": 668,
+			"versionNonce": 318681890,
 			"isDeleted": false,
 			"id": "mG4x-qYyST2geON_69ED3",
 			"fillStyle": "solid",
@@ -10215,7 +10233,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -10350,8 +10368,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 243,
-			"versionNonce": 1939883081,
+			"version": 305,
+			"versionNonce": 668141566,
 			"isDeleted": false,
 			"id": "lpfK7guh",
 			"fillStyle": "solid",
@@ -10370,7 +10388,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"fontSize": 9.817022251932991,
@@ -10386,8 +10404,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "rectangle",
-			"version": 256,
-			"versionNonce": 1219215559,
+			"version": 318,
+			"versionNonce": 952106722,
 			"isDeleted": false,
 			"id": "n_sRRynPsaH-uJVlIev9_",
 			"fillStyle": "solid",
@@ -10411,14 +10429,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 305,
-			"versionNonce": 964875049,
+			"version": 367,
+			"versionNonce": 846026814,
 			"isDeleted": false,
 			"id": "B7rEL27XZTBENL3P_4QCG",
 			"fillStyle": "solid",
@@ -10442,14 +10460,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 343,
-			"versionNonce": 858132455,
+			"version": 405,
+			"versionNonce": 2011288226,
 			"isDeleted": false,
 			"id": "-0r2BNvslrxfdJ0jUPz3R",
 			"fillStyle": "solid",
@@ -10473,14 +10491,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 431,
-			"versionNonce": 99649033,
+			"version": 493,
+			"versionNonce": 1305714814,
 			"isDeleted": false,
 			"id": "XYmkcvul",
 			"fillStyle": "solid",
@@ -10499,7 +10517,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"fontSize": 5.3497816492634955,
@@ -10515,8 +10533,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "rectangle",
-			"version": 274,
-			"versionNonce": 1942584071,
+			"version": 336,
+			"versionNonce": 1662201442,
 			"isDeleted": false,
 			"id": "GH13KCRC0b8qdT5-nVPsg",
 			"fillStyle": "solid",
@@ -10544,14 +10562,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "arrow",
-			"version": 416,
-			"versionNonce": 602201321,
+			"version": 478,
+			"versionNonce": 1841750206,
 			"isDeleted": false,
 			"id": "-IKi7HMm7JoNCw7RcOH28",
 			"fillStyle": "solid",
@@ -10570,7 +10588,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -10599,8 +10617,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "arrow",
-			"version": 575,
-			"versionNonce": 521306663,
+			"version": 637,
+			"versionNonce": 1596133922,
 			"isDeleted": false,
 			"id": "MihsZRD0SL9b1_Qe2YOQh",
 			"fillStyle": "solid",
@@ -10619,7 +10637,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -10648,8 +10666,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "arrow",
-			"version": 386,
-			"versionNonce": 1928026057,
+			"version": 448,
+			"versionNonce": 1709709566,
 			"isDeleted": false,
 			"id": "efbXuF3csN-3IRUu8rJah",
 			"fillStyle": "solid",
@@ -10668,7 +10686,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -10697,8 +10715,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "arrow",
-			"version": 685,
-			"versionNonce": 99460423,
+			"version": 747,
+			"versionNonce": 1593867746,
 			"isDeleted": false,
 			"id": "0znNN6In3gzDNGnGSa-EZ",
 			"fillStyle": "solid",
@@ -10717,7 +10735,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -10746,8 +10764,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "arrow",
-			"version": 544,
-			"versionNonce": 1428125353,
+			"version": 606,
+			"versionNonce": 1840793918,
 			"isDeleted": false,
 			"id": "0UzQE8QKlV9KkaRDDZW90",
 			"fillStyle": "solid",
@@ -10766,7 +10784,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -10795,8 +10813,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 644,
-			"versionNonce": 666330215,
+			"version": 706,
+			"versionNonce": 532312482,
 			"isDeleted": false,
 			"id": "NMOLQ3b6",
 			"fillStyle": "solid",
@@ -10820,7 +10838,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.549032689503458,
@@ -10836,8 +10854,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 525,
-			"versionNonce": 1563212169,
+			"version": 587,
+			"versionNonce": 613970302,
 			"isDeleted": false,
 			"id": "bh6bQcB6",
 			"fillStyle": "solid",
@@ -10861,7 +10879,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484760,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"fontSize": 5.76581328593598,
@@ -10877,8 +10895,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 243,
-			"versionNonce": 1681670023,
+			"version": 305,
+			"versionNonce": 1686105442,
 			"isDeleted": false,
 			"id": "sJ_0W1zfwGGz1bWqj--XS",
 			"fillStyle": "solid",
@@ -10897,7 +10915,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484761,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -10918,8 +10936,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 244,
-			"versionNonce": 1011785833,
+			"version": 306,
+			"versionNonce": 365531582,
 			"isDeleted": false,
 			"id": "rZw1cesCj20MdxbO8tFNH",
 			"fillStyle": "solid",
@@ -10938,7 +10956,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484761,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -10959,8 +10977,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 315,
-			"versionNonce": 1840821927,
+			"version": 377,
+			"versionNonce": 849342754,
 			"isDeleted": false,
 			"id": "iqaae19C8HUPBH9POb84a",
 			"fillStyle": "solid",
@@ -10979,7 +10997,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484761,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -11000,8 +11018,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 254,
-			"versionNonce": 1884334921,
+			"version": 316,
+			"versionNonce": 1013754366,
 			"isDeleted": false,
 			"id": "gdVrrL0KA_642M6US9cpx",
 			"fillStyle": "solid",
@@ -11020,7 +11038,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484761,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -11041,8 +11059,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 414,
-			"versionNonce": 2061060551,
+			"version": 476,
+			"versionNonce": 227114210,
 			"isDeleted": false,
 			"id": "ZPZ1OTiI",
 			"fillStyle": "solid",
@@ -11072,7 +11090,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484761,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.063292207422434,
@@ -11088,8 +11106,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 415,
-			"versionNonce": 831412777,
+			"version": 477,
+			"versionNonce": 126007870,
 			"isDeleted": false,
 			"id": "cC1rUAjX",
 			"fillStyle": "solid",
@@ -11115,7 +11133,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484761,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.063292207422434,
@@ -11131,8 +11149,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 416,
-			"versionNonce": 951744743,
+			"version": 478,
+			"versionNonce": 852201634,
 			"isDeleted": false,
 			"id": "W3ludlNi",
 			"fillStyle": "solid",
@@ -11158,7 +11176,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484761,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.063292207422434,
@@ -11174,8 +11192,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 457,
-			"versionNonce": 552807689,
+			"version": 519,
+			"versionNonce": 1575797374,
 			"isDeleted": false,
 			"id": "zXsK8qv8",
 			"fillStyle": "solid",
@@ -11205,7 +11223,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484761,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"fontSize": 8.675250189791656,
@@ -11221,8 +11239,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "rectangle",
-			"version": 384,
-			"versionNonce": 2095629319,
+			"version": 446,
+			"versionNonce": 1444228194,
 			"isDeleted": false,
 			"id": "RoCu6irbp5f7K2JqtwGQg",
 			"fillStyle": "solid",
@@ -11246,14 +11264,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484761,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 433,
-			"versionNonce": 905618409,
+			"version": 495,
+			"versionNonce": 577487550,
 			"isDeleted": false,
 			"id": "ffflyDPq6a-RIC3jMcEVO",
 			"fillStyle": "solid",
@@ -11277,14 +11295,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484761,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 471,
-			"versionNonce": 929082151,
+			"version": 533,
+			"versionNonce": 1563775010,
 			"isDeleted": false,
 			"id": "idiRM2vwrgm7K-18jsp-8",
 			"fillStyle": "solid",
@@ -11308,14 +11326,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484761,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 559,
-			"versionNonce": 1823489737,
+			"version": 621,
+			"versionNonce": 933280510,
 			"isDeleted": false,
 			"id": "23ACLTaq",
 			"fillStyle": "solid",
@@ -11334,7 +11352,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484761,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"fontSize": 5.3497816492634955,
@@ -11350,8 +11368,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "rectangle",
-			"version": 402,
-			"versionNonce": 613330503,
+			"version": 464,
+			"versionNonce": 471530466,
 			"isDeleted": false,
 			"id": "g1Nbm8sLFeWB16qMzO9l_",
 			"fillStyle": "solid",
@@ -11379,14 +11397,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484761,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "arrow",
-			"version": 809,
-			"versionNonce": 867138985,
+			"version": 871,
+			"versionNonce": 67939134,
 			"isDeleted": false,
 			"id": "luNwGym1Ei1AqaGPap6VJ",
 			"fillStyle": "solid",
@@ -11405,7 +11423,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484761,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -11434,8 +11452,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "arrow",
-			"version": 968,
-			"versionNonce": 1062161767,
+			"version": 1030,
+			"versionNonce": 282406818,
 			"isDeleted": false,
 			"id": "lZQRFKuj6ovfDJ3lxdbo8",
 			"fillStyle": "solid",
@@ -11454,7 +11472,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484761,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -11483,8 +11501,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "arrow",
-			"version": 779,
-			"versionNonce": 438558857,
+			"version": 841,
+			"versionNonce": 1980797822,
 			"isDeleted": false,
 			"id": "1dnJRiF9oj-h3eIxOFfza",
 			"fillStyle": "solid",
@@ -11503,7 +11521,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484761,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -11532,8 +11550,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "arrow",
-			"version": 1078,
-			"versionNonce": 1928267911,
+			"version": 1140,
+			"versionNonce": 529722210,
 			"isDeleted": false,
 			"id": "XWGDg0bGRs-I_2etcEJ3D",
 			"fillStyle": "solid",
@@ -11552,7 +11570,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484761,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -11581,8 +11599,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "arrow",
-			"version": 805,
-			"versionNonce": 1036576617,
+			"version": 867,
+			"versionNonce": 133002174,
 			"isDeleted": false,
 			"id": "8z4zB32B8063Y_1qDSSun",
 			"fillStyle": "solid",
@@ -11601,7 +11619,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484761,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -11630,8 +11648,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 772,
-			"versionNonce": 220880807,
+			"version": 834,
+			"versionNonce": 1319317282,
 			"isDeleted": false,
 			"id": "eYdQg57x",
 			"fillStyle": "solid",
@@ -11655,7 +11673,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484761,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.549032689503458,
@@ -11671,8 +11689,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 653,
-			"versionNonce": 2028606025,
+			"version": 715,
+			"versionNonce": 1136937982,
 			"isDeleted": false,
 			"id": "dUSYssGW",
 			"fillStyle": "solid",
@@ -11696,7 +11714,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484761,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"fontSize": 5.76581328593598,
@@ -11712,8 +11730,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 371,
-			"versionNonce": 1882051271,
+			"version": 433,
+			"versionNonce": 41220834,
 			"isDeleted": false,
 			"id": "8NQ_31N02WQvOwGYLyEtm",
 			"fillStyle": "solid",
@@ -11732,7 +11750,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484761,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -11753,8 +11771,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 372,
-			"versionNonce": 1348657449,
+			"version": 434,
+			"versionNonce": 1201019966,
 			"isDeleted": false,
 			"id": "gc13qB5zaR5R5sAnPYYmQ",
 			"fillStyle": "solid",
@@ -11773,7 +11791,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484761,
+			"updated": 1694624927705,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -11794,8 +11812,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 443,
-			"versionNonce": 76931559,
+			"version": 505,
+			"versionNonce": 966217378,
 			"isDeleted": false,
 			"id": "NN9f0SW9p-gYKZB0kXTPQ",
 			"fillStyle": "solid",
@@ -11814,7 +11832,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484761,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -11835,8 +11853,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 382,
-			"versionNonce": 564057097,
+			"version": 444,
+			"versionNonce": 1229186174,
 			"isDeleted": false,
 			"id": "yxLb-H6cx21rcXdKAWKfR",
 			"fillStyle": "solid",
@@ -11855,7 +11873,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484761,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -11876,8 +11894,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 542,
-			"versionNonce": 1802439943,
+			"version": 604,
+			"versionNonce": 1220094562,
 			"isDeleted": false,
 			"id": "yWyOCagr",
 			"fillStyle": "solid",
@@ -11907,7 +11925,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484761,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.063292207422434,
@@ -11923,8 +11941,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 543,
-			"versionNonce": 278489833,
+			"version": 605,
+			"versionNonce": 445555902,
 			"isDeleted": false,
 			"id": "0cvg366Q",
 			"fillStyle": "solid",
@@ -11950,7 +11968,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484761,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.063292207422434,
@@ -11966,8 +11984,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 544,
-			"versionNonce": 1882575911,
+			"version": 606,
+			"versionNonce": 380210722,
 			"isDeleted": false,
 			"id": "cO98Tpct",
 			"fillStyle": "solid",
@@ -11993,7 +12011,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484761,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"fontSize": 6.063292207422434,
@@ -12009,8 +12027,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 585,
-			"versionNonce": 903751113,
+			"version": 647,
+			"versionNonce": 756505854,
 			"isDeleted": false,
 			"id": "HyJeZcm3",
 			"fillStyle": "solid",
@@ -12040,7 +12058,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 					"type": "arrow"
 				}
 			],
-			"updated": 1693591484761,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"fontSize": 8.675250189791656,
@@ -12056,8 +12074,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 326,
-			"versionNonce": 987150151,
+			"version": 388,
+			"versionNonce": 1482127842,
 			"isDeleted": false,
 			"id": "-4_BksQu2Thwap42E_0y_",
 			"fillStyle": "solid",
@@ -12076,7 +12094,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484761,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -12097,8 +12115,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "rectangle",
-			"version": 184,
-			"versionNonce": 210273449,
+			"version": 246,
+			"versionNonce": 375328062,
 			"isDeleted": false,
 			"id": "j-O8NHsbkWEIqPRTGoD99",
 			"fillStyle": "solid",
@@ -12117,14 +12135,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484761,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 231,
-			"versionNonce": 1101936231,
+			"version": 293,
+			"versionNonce": 1288826274,
 			"isDeleted": false,
 			"id": "crBiEmxWRLh5yPIAP4OOi",
 			"fillStyle": "solid",
@@ -12143,14 +12161,14 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484761,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 189,
-			"versionNonce": 541329289,
+			"version": 274,
+			"versionNonce": 331789694,
 			"isDeleted": false,
 			"id": "i5WT3703",
 			"fillStyle": "solid",
@@ -12171,7 +12189,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484761,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"fontSize": 12.985177610351544,
@@ -12187,8 +12205,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 249,
-			"versionNonce": 2072564103,
+			"version": 317,
+			"versionNonce": 2034755938,
 			"isDeleted": false,
 			"id": "CJQU9Ezv",
 			"fillStyle": "solid",
@@ -12201,7 +12219,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"y": -607.9774720649416,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
-			"width": 95.60586547851562,
+			"width": 108.58761596679688,
 			"height": 16.23147201293943,
 			"seed": 1579497041,
 			"groupIds": [
@@ -12209,24 +12227,24 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484761,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"fontSize": 12.985177610351544,
 			"fontFamily": 1,
-			"text": "input embedding",
-			"rawText": "input embedding",
+			"text": "output embedding",
+			"rawText": "output embedding",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "input embedding",
+			"originalText": "output embedding",
 			"lineHeight": 1.25,
 			"baseline": 11
 		},
 		{
 			"type": "freedraw",
-			"version": 120,
-			"versionNonce": 2068590185,
+			"version": 182,
+			"versionNonce": 244274622,
 			"isDeleted": false,
 			"id": "WsSUpt5PV7YIEN5PmRCBZ",
 			"fillStyle": "solid",
@@ -12245,7 +12263,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484761,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -12596,8 +12614,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "freedraw",
-			"version": 88,
-			"versionNonce": 1369639079,
+			"version": 150,
+			"versionNonce": 1695051042,
 			"isDeleted": false,
 			"id": "s6dOCRQ3G1SOy0-Z9s4iL",
 			"fillStyle": "solid",
@@ -12616,7 +12634,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484761,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -12839,8 +12857,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "freedraw",
-			"version": 86,
-			"versionNonce": 1416395081,
+			"version": 148,
+			"versionNonce": 534375934,
 			"isDeleted": false,
 			"id": "sdeSdmK-RTW3xzS3sn50Z",
 			"fillStyle": "solid",
@@ -12859,7 +12877,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484761,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -13074,8 +13092,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 78,
-			"versionNonce": 1370053575,
+			"version": 163,
+			"versionNonce": 1434613986,
 			"isDeleted": false,
 			"id": "bvATAq0n",
 			"fillStyle": "solid",
@@ -13096,7 +13114,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484761,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -13112,8 +13130,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 169,
-			"versionNonce": 2097178665,
+			"version": 231,
+			"versionNonce": 346521150,
 			"isDeleted": false,
 			"id": "weu8gEer",
 			"fillStyle": "solid",
@@ -13134,7 +13152,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484761,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"fontSize": 12.605157314752905,
@@ -13150,8 +13168,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 188,
-			"versionNonce": 532171495,
+			"version": 250,
+			"versionNonce": 172297378,
 			"isDeleted": false,
 			"id": "g6VlNQoo",
 			"fillStyle": "solid",
@@ -13172,7 +13190,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"fontSize": 11.452702378149606,
@@ -13188,8 +13206,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 163,
-			"versionNonce": 250837769,
+			"version": 225,
+			"versionNonce": 1910048382,
 			"isDeleted": false,
 			"id": "mGJhWEti",
 			"fillStyle": "solid",
@@ -13210,7 +13228,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"fontSize": 12.605157314752905,
@@ -13226,8 +13244,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 292,
-			"versionNonce": 677139975,
+			"version": 354,
+			"versionNonce": 2029987938,
 			"isDeleted": false,
 			"id": "79odkhsn",
 			"fillStyle": "solid",
@@ -13248,7 +13266,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"fontSize": 10.163672198688573,
@@ -13264,8 +13282,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 412,
-			"versionNonce": 1522610665,
+			"version": 474,
+			"versionNonce": 2016380606,
 			"isDeleted": false,
 			"id": "FGlhCDpP",
 			"fillStyle": "solid",
@@ -13286,7 +13304,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"fontSize": 10.72709184085726,
@@ -13302,8 +13320,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 112,
-			"versionNonce": 311557415,
+			"version": 174,
+			"versionNonce": 159370274,
 			"isDeleted": false,
 			"id": "_5CIwaV3s3kXQbwf61FSl",
 			"fillStyle": "solid",
@@ -13322,7 +13340,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -13343,8 +13361,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 169,
-			"versionNonce": 359992521,
+			"version": 231,
+			"versionNonce": 676069118,
 			"isDeleted": false,
 			"id": "SW6meWd1FT111JQl_vx8B",
 			"fillStyle": "solid",
@@ -13363,7 +13381,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -13384,8 +13402,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 124,
-			"versionNonce": 1908785223,
+			"version": 186,
+			"versionNonce": 1370879970,
 			"isDeleted": false,
 			"id": "Q_vknmrh0ReueQiSVvzlg",
 			"fillStyle": "solid",
@@ -13404,7 +13422,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -13425,8 +13443,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 178,
-			"versionNonce": 1185581993,
+			"version": 240,
+			"versionNonce": 1185902398,
 			"isDeleted": false,
 			"id": "XSdbwdIR7wdwdvKH5X7D5",
 			"fillStyle": "solid",
@@ -13445,7 +13463,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -13466,8 +13484,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 227,
-			"versionNonce": 936648551,
+			"version": 289,
+			"versionNonce": 1370532770,
 			"isDeleted": false,
 			"id": "CNuSBrcYEV0ZIf-zjcCX7",
 			"fillStyle": "solid",
@@ -13486,7 +13504,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -13507,8 +13525,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 251,
-			"versionNonce": 1988963977,
+			"version": 313,
+			"versionNonce": 1606080382,
 			"isDeleted": false,
 			"id": "NL61_GIPYcefDPij7yRXC",
 			"fillStyle": "solid",
@@ -13527,7 +13545,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -13548,8 +13566,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 122,
-			"versionNonce": 1728682631,
+			"version": 184,
+			"versionNonce": 798943074,
 			"isDeleted": false,
 			"id": "7gLbWDzclEdGB7AfRa8b-",
 			"fillStyle": "solid",
@@ -13568,7 +13586,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -13589,8 +13607,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 248,
-			"versionNonce": 467170665,
+			"version": 310,
+			"versionNonce": 1269774270,
 			"isDeleted": false,
 			"id": "o-ps6g16Z6qVDyJN7GsUs",
 			"fillStyle": "solid",
@@ -13609,7 +13627,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -13630,8 +13648,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 82,
-			"versionNonce": 69382567,
+			"version": 144,
+			"versionNonce": 1942989602,
 			"isDeleted": false,
 			"id": "I0hV2hTdM-p0mraUlGfZ4",
 			"fillStyle": "solid",
@@ -13650,7 +13668,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -13671,8 +13689,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 90,
-			"versionNonce": 1238884425,
+			"version": 152,
+			"versionNonce": 850235390,
 			"isDeleted": false,
 			"id": "Qa4MvqO8wP9Vg0BApiOra",
 			"fillStyle": "solid",
@@ -13691,7 +13709,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -13712,8 +13730,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 109,
-			"versionNonce": 1212933319,
+			"version": 171,
+			"versionNonce": 1152513762,
 			"isDeleted": false,
 			"id": "NRjEpkdo7YlEe3kuy0IN_",
 			"fillStyle": "solid",
@@ -13732,7 +13750,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -13753,8 +13771,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 133,
-			"versionNonce": 510062377,
+			"version": 195,
+			"versionNonce": 280420414,
 			"isDeleted": false,
 			"id": "c3td8CLRmrJRUmGqDiDme",
 			"fillStyle": "solid",
@@ -13773,7 +13791,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -13794,8 +13812,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 66,
-			"versionNonce": 320975847,
+			"version": 128,
+			"versionNonce": 584370850,
 			"isDeleted": false,
 			"id": "RESprvE51EfEQSMD_wj4F",
 			"fillStyle": "solid",
@@ -13814,7 +13832,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -13835,8 +13853,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 109,
-			"versionNonce": 1878073865,
+			"version": 171,
+			"versionNonce": 967583870,
 			"isDeleted": false,
 			"id": "dp8OlmfClkCZnj9GUU_df",
 			"fillStyle": "solid",
@@ -13855,7 +13873,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -13876,8 +13894,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 115,
-			"versionNonce": 481337095,
+			"version": 177,
+			"versionNonce": 619128418,
 			"isDeleted": false,
 			"id": "IS1zv3hfgPmIvTWhiq4CV",
 			"fillStyle": "solid",
@@ -13896,7 +13914,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -13917,8 +13935,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 84,
-			"versionNonce": 997325033,
+			"version": 146,
+			"versionNonce": 1565419710,
 			"isDeleted": false,
 			"id": "vGmg8E5wa5Q5awlMcMnco",
 			"fillStyle": "solid",
@@ -13937,7 +13955,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -13958,8 +13976,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 144,
-			"versionNonce": 1735730727,
+			"version": 206,
+			"versionNonce": 867699234,
 			"isDeleted": false,
 			"id": "tT7kKUZfgbDMXeKEva-1o",
 			"fillStyle": "solid",
@@ -13978,7 +13996,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -13999,8 +14017,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 162,
-			"versionNonce": 1383396297,
+			"version": 224,
+			"versionNonce": 188653822,
 			"isDeleted": false,
 			"id": "gUnlqpv2118oVmJc3rwRi",
 			"fillStyle": "solid",
@@ -14019,7 +14037,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -14040,8 +14058,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 265,
-			"versionNonce": 1918617927,
+			"version": 327,
+			"versionNonce": 1177974242,
 			"isDeleted": false,
 			"id": "ygJQGexga4IAEYOahetto",
 			"fillStyle": "solid",
@@ -14060,7 +14078,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -14081,8 +14099,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 269,
-			"versionNonce": 1226150569,
+			"version": 331,
+			"versionNonce": 922603838,
 			"isDeleted": false,
 			"id": "LcKgeSuKS0KCgQczXSGuL",
 			"fillStyle": "solid",
@@ -14101,7 +14119,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -14122,8 +14140,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 63,
-			"versionNonce": 717293671,
+			"version": 125,
+			"versionNonce": 493971874,
 			"isDeleted": false,
 			"id": "BFNxhDkQi1V0DBJnNUP7Z",
 			"fillStyle": "solid",
@@ -14142,7 +14160,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -14163,8 +14181,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 125,
-			"versionNonce": 603936137,
+			"version": 187,
+			"versionNonce": 1005386110,
 			"isDeleted": false,
 			"id": "siJ8biE9L2aEIj6uM9CLv",
 			"fillStyle": "solid",
@@ -14183,7 +14201,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -14204,8 +14222,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 326,
-			"versionNonce": 510747527,
+			"version": 388,
+			"versionNonce": 9954658,
 			"isDeleted": false,
 			"id": "yDhHHDyhPXi3MmHFrlc-S",
 			"fillStyle": "solid",
@@ -14224,7 +14242,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -14245,8 +14263,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 107,
-			"versionNonce": 1181596777,
+			"version": 169,
+			"versionNonce": 1632442814,
 			"isDeleted": false,
 			"id": "vn-uiEIVSZ-VGxII0Q2E7",
 			"fillStyle": "solid",
@@ -14265,7 +14283,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -14286,8 +14304,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 116,
-			"versionNonce": 1839815335,
+			"version": 178,
+			"versionNonce": 2029578530,
 			"isDeleted": false,
 			"id": "-81l30jcSms09pbWyt3nO",
 			"fillStyle": "solid",
@@ -14306,7 +14324,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -14327,8 +14345,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 117,
-			"versionNonce": 539772745,
+			"version": 179,
+			"versionNonce": 1581199870,
 			"isDeleted": false,
 			"id": "Y5uWhAVyEZOKCYrd4v3Ly",
 			"fillStyle": "solid",
@@ -14347,7 +14365,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -14368,8 +14386,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 101,
-			"versionNonce": 2098556359,
+			"version": 163,
+			"versionNonce": 235107554,
 			"isDeleted": false,
 			"id": "dQLDf_m8-0Mi-UHFYhxkz",
 			"fillStyle": "solid",
@@ -14388,7 +14406,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -14409,8 +14427,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 160,
-			"versionNonce": 462845481,
+			"version": 222,
+			"versionNonce": 1573143102,
 			"isDeleted": false,
 			"id": "8zp9_QnW49GyVdOMcxB31",
 			"fillStyle": "solid",
@@ -14429,7 +14447,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -14450,8 +14468,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 246,
-			"versionNonce": 1741823207,
+			"version": 308,
+			"versionNonce": 21399714,
 			"isDeleted": false,
 			"id": "fSDT-iHUToHbd8Fjl_JG5",
 			"fillStyle": "solid",
@@ -14470,7 +14488,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -14491,8 +14509,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 92,
-			"versionNonce": 1268238601,
+			"version": 154,
+			"versionNonce": 45959806,
 			"isDeleted": false,
 			"id": "yW4EurO3plk4unCEBMRc4",
 			"fillStyle": "solid",
@@ -14511,7 +14529,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -14532,8 +14550,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 132,
-			"versionNonce": 829155335,
+			"version": 194,
+			"versionNonce": 175187042,
 			"isDeleted": false,
 			"id": "XhUpfwk8k2zK0v5DU_cbk",
 			"fillStyle": "solid",
@@ -14552,7 +14570,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -14573,8 +14591,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 154,
-			"versionNonce": 1504428009,
+			"version": 216,
+			"versionNonce": 1810582206,
 			"isDeleted": false,
 			"id": "eWiTU8f4m1fuD8bSmGX1c",
 			"fillStyle": "solid",
@@ -14593,7 +14611,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -14614,8 +14632,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 279,
-			"versionNonce": 937381671,
+			"version": 341,
+			"versionNonce": 324159522,
 			"isDeleted": false,
 			"id": "s1Ts7AEuWsAtPX9TPq-Ko",
 			"fillStyle": "solid",
@@ -14634,7 +14652,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -14655,8 +14673,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 115,
-			"versionNonce": 870177481,
+			"version": 177,
+			"versionNonce": 938427134,
 			"isDeleted": false,
 			"id": "y6a3f595QfggfXw7LxjMj",
 			"fillStyle": "solid",
@@ -14675,7 +14693,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -14696,8 +14714,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "line",
-			"version": 106,
-			"versionNonce": 1704514119,
+			"version": 168,
+			"versionNonce": 1943598050,
 			"isDeleted": false,
 			"id": "SGpBWYZimXMMSGQRiU95z",
 			"fillStyle": "solid",
@@ -14716,7 +14734,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -14737,8 +14755,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 264,
-			"versionNonce": 2060032425,
+			"version": 326,
+			"versionNonce": 155857726,
 			"isDeleted": false,
 			"id": "cZopHU4l",
 			"fillStyle": "solid",
@@ -14759,7 +14777,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"fontSize": 12.450001529096397,
@@ -14775,8 +14793,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 96,
-			"versionNonce": 594866535,
+			"version": 158,
+			"versionNonce": 773072802,
 			"isDeleted": false,
 			"id": "uf8DRweu",
 			"fillStyle": "solid",
@@ -14797,7 +14815,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"fontSize": 12.213334964369505,
@@ -14813,8 +14831,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 155,
-			"versionNonce": 798653577,
+			"version": 217,
+			"versionNonce": 173874046,
 			"isDeleted": false,
 			"id": "Dj8jZy9p",
 			"fillStyle": "solid",
@@ -14835,7 +14853,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"fontSize": 7.851486246391962,
@@ -14851,8 +14869,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 237,
-			"versionNonce": 180366471,
+			"version": 299,
+			"versionNonce": 707978082,
 			"isDeleted": false,
 			"id": "KARkv9iQ",
 			"fillStyle": "solid",
@@ -14873,7 +14891,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591484762,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"fontSize": 7.851486246391962,
@@ -14889,8 +14907,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 1488,
-			"versionNonce": 1867030823,
+			"version": 1550,
+			"versionNonce": 1902705598,
 			"isDeleted": false,
 			"id": "KySQWlLu",
 			"fillStyle": "solid",
@@ -14911,7 +14929,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591487743,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"fontSize": 5.5894630534366865,
@@ -14927,8 +14945,8 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		},
 		{
 			"type": "text",
-			"version": 555,
-			"versionNonce": 171617383,
+			"version": 617,
+			"versionNonce": 1921263394,
 			"isDeleted": false,
 			"id": "So0sRvQg",
 			"fillStyle": "solid",
@@ -14949,7 +14967,7 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693591491899,
+			"updated": 1694624927706,
 			"link": null,
 			"locked": false,
 			"fontSize": 5.5894630534366865,
@@ -14962,15 +14980,2568 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 			"originalText": "residual",
 			"lineHeight": 1.25,
 			"baseline": 5
+		},
+		{
+			"type": "rectangle",
+			"version": 348,
+			"versionNonce": 76469246,
+			"isDeleted": false,
+			"id": "OspLj6o4IcO4lLxCnCpZo",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -213.68446825217032,
+			"y": 916.3758677595532,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#e9ecef",
+			"width": 54,
+			"height": 73,
+			"seed": 376489666,
+			"groupIds": [],
+			"roundness": null,
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "oDOoCIGp"
+				}
+			],
+			"updated": 1694624927706,
+			"link": null,
+			"locked": false
+		},
+		{
+			"type": "text",
+			"version": 238,
+			"versionNonce": 1870066402,
+			"isDeleted": false,
+			"id": "oDOoCIGp",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -192.076481801975,
+			"y": 942.8758677595532,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 10.784027099609375,
+			"height": 20,
+			"seed": 1659584514,
+			"groupIds": [],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1694624927706,
+			"link": null,
+			"locked": false,
+			"fontSize": 16,
+			"fontFamily": 1,
+			"text": "E",
+			"rawText": "E",
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "OspLj6o4IcO4lLxCnCpZo",
+			"originalText": "E",
+			"lineHeight": 1.25,
+			"baseline": 14
+		},
+		{
+			"type": "rectangle",
+			"version": 387,
+			"versionNonce": 500147262,
+			"isDeleted": false,
+			"id": "DCBQu0zraDRHLmcYl_3jA",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -211.9726754662159,
+			"y": 1023.8062050672422,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#d0bfff",
+			"width": 53.04355659531524,
+			"height": 72.78069393310693,
+			"seed": 1698374494,
+			"groupIds": [],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1694624927706,
+			"link": null,
+			"locked": false
+		},
+		{
+			"type": "text",
+			"version": 395,
+			"versionNonce": 597313186,
+			"isDeleted": false,
+			"id": "ULteBJyf",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -329.0791866354513,
+			"y": 934.8407562518438,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 40.13935852050781,
+			"height": 12.813020220134545,
+			"seed": 1203402498,
+			"groupIds": [
+				"uLqqaP0NDuuvY3ekE9dCG"
+			],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1694624927706,
+			"link": null,
+			"locked": false,
+			"fontSize": 10.250416176107636,
+			"fontFamily": 1,
+			"text": "1  - cat",
+			"rawText": "1  - cat",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "1  - cat",
+			"lineHeight": 1.25,
+			"baseline": 8
+		},
+		{
+			"type": "text",
+			"version": 360,
+			"versionNonce": 789343358,
+			"isDeleted": false,
+			"id": "fZrTqFF9",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -329.0791866354513,
+			"y": 945.9080050286688,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 29.571502685546875,
+			"height": 12.813020220134545,
+			"seed": 418477342,
+			"groupIds": [
+				"6ikPIWUCCC_pPV0JeHy6s"
+			],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1694624927706,
+			"link": null,
+			"locked": false,
+			"fontSize": 10.250416176107636,
+			"fontFamily": 1,
+			"text": "2 - is",
+			"rawText": "2 - is",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "2 - is",
+			"lineHeight": 1.25,
+			"baseline": 8
+		},
+		{
+			"type": "text",
+			"version": 355,
+			"versionNonce": 1738351202,
+			"isDeleted": false,
+			"id": "TrSYMlaM",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -328.60411885348674,
+			"y": 959.1464966233673,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 54.33573913574219,
+			"height": 12.813020220134545,
+			"seed": 1825350622,
+			"groupIds": [
+				"n_iB3mrWGQY7PSBMCzEzS"
+			],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1694624927707,
+			"link": null,
+			"locked": false,
+			"fontSize": 10.250416176107636,
+			"fontFamily": 1,
+			"text": "3 - jumping",
+			"rawText": "3 - jumping",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "3 - jumping",
+			"lineHeight": 1.25,
+			"baseline": 8
+		},
+		{
+			"type": "freedraw",
+			"version": 358,
+			"versionNonce": 1174809790,
+			"isDeleted": false,
+			"id": "0jIMFqJLCBn0aknCMx3yF",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -269.453113973036,
+			"y": 949.0192771445604,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 45.22712928000597,
+			"height": 0,
+			"seed": 1248654658,
+			"groupIds": [],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1694624927707,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					45.22712928000597,
+					0
+				]
+			],
+			"lastCommittedPoint": null,
+			"simulatePressure": true,
+			"pressures": []
+		},
+		{
+			"type": "freedraw",
+			"version": 285,
+			"versionNonce": 642680354,
+			"isDeleted": false,
+			"id": "WricBsmaHh4LAffZNRERs",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -227.44879371659533,
+			"y": 943.0806618917044,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 8.079621591152915,
+			"height": 12.696548214668837,
+			"seed": 1996147742,
+			"groupIds": [],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1694624927707,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					1.9237194264649702,
+					1.9237194264649133
+				],
+				[
+					2.3084633117579756,
+					2.3084633117579187
+				],
+				[
+					2.693207197050981,
+					2.693207197050924
+				],
+				[
+					3.4626949676369634,
+					2.693207197050924
+				],
+				[
+					4.232182738222946,
+					3.462694967636935
+				],
+				[
+					5.001670508808957,
+					3.8474388529299404
+				],
+				[
+					5.386414394101934,
+					4.616926623515951
+				],
+				[
+					5.771158279394939,
+					4.616926623515951
+				],
+				[
+					5.771158279394939,
+					5.001670508808957
+				],
+				[
+					6.155902164687944,
+					5.386414394101962
+				],
+				[
+					6.540646049980921,
+					5.771158279394854
+				],
+				[
+					6.540646049980921,
+					6.155902164687973
+				],
+				[
+					6.540646049980921,
+					6.5406460499808645
+				],
+				[
+					6.540646049980921,
+					6.92538993527387
+				],
+				[
+					6.540646049980921,
+					7.310133820566875
+				],
+				[
+					6.155902164687944,
+					7.310133820566875
+				],
+				[
+					5.771158279394939,
+					7.694877705859881
+				],
+				[
+					5.386414394101934,
+					8.079621591152886
+				],
+				[
+					4.616926623515951,
+					8.079621591152886
+				],
+				[
+					3.847438852929969,
+					8.464365476445892
+				],
+				[
+					3.077951082343958,
+					8.849109361738897
+				],
+				[
+					2.3084633117579756,
+					9.233853247031902
+				],
+				[
+					1.5389755411719648,
+					9.618597132324908
+				],
+				[
+					0.7694877705859824,
+					9.618597132324908
+				],
+				[
+					-0.3847438852930054,
+					10.388084902910919
+				],
+				[
+					-0.7694877705860108,
+					10.77282878820381
+				],
+				[
+					-1.1542316558789878,
+					11.157572673496816
+				],
+				[
+					-1.5389755411719932,
+					11.157572673496816
+				],
+				[
+					-1.5389755411719932,
+					11.542316558789821
+				],
+				[
+					-1.5389755411719932,
+					11.927060444082827
+				],
+				[
+					-1.5389755411719932,
+					12.311804329375832
+				],
+				[
+					-1.1542316558789878,
+					12.696548214668837
+				],
+				[
+					-0.7694877705860108,
+					12.696548214668837
+				],
+				[
+					-0.7694877705860108,
+					12.696548214668837
+				]
+			],
+			"lastCommittedPoint": null,
+			"simulatePressure": true,
+			"pressures": []
+		},
+		{
+			"type": "freedraw",
+			"version": 417,
+			"versionNonce": 274588926,
+			"isDeleted": false,
+			"id": "TSXCSbdiQiiNlrrJv4pwa",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -159.34912601973502,
+			"y": 951.5450273681503,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 143.89421309958053,
+			"height": 99.6486662908859,
+			"seed": 446003678,
+			"groupIds": [],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1694624927707,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					1.9237194264649702,
+					0.3847438852930054
+				],
+				[
+					3.0779510823439296,
+					0.7694877705860108
+				],
+				[
+					4.232182738222946,
+					0.7694877705860108
+				],
+				[
+					7.310133820566932,
+					0.7694877705860108
+				],
+				[
+					10.388084902910862,
+					1.1542316558790162
+				],
+				[
+					14.235523755840859,
+					1.1542316558790162
+				],
+				[
+					16.92873095289184,
+					1.1542316558790162
+				],
+				[
+					20.77616980582178,
+					1.1542316558790162
+				],
+				[
+					25.39309642933773,
+					1.1542316558790162
+				],
+				[
+					29.625279167560677,
+					1.1542316558790162
+				],
+				[
+					34.24220579107663,
+					1.923719426465027
+				],
+				[
+					38.474388529299574,
+					1.923719426465027
+				],
+				[
+					42.32182738222957,
+					2.693207197050924
+				],
+				[
+					46.16926623515951,
+					2.693207197050924
+				],
+				[
+					49.2472173175035,
+					3.0779510823439296
+				],
+				[
+					51.17093674396847,
+					3.0779510823439296
+				],
+				[
+					53.479400055726444,
+					3.0779510823439296
+				],
+				[
+					54.6336317116054,
+					3.8474388529299404
+				],
+				[
+					56.172607252777425,
+					3.8474388529299404
+				],
+				[
+					56.94209502336338,
+					3.8474388529299404
+				],
+				[
+					57.326838908656384,
+					3.8474388529299404
+				],
+				[
+					57.71158279394939,
+					3.8474388529299404
+				],
+				[
+					57.71158279394939,
+					4.232182738222946
+				],
+				[
+					57.71158279394939,
+					4.616926623515951
+				],
+				[
+					57.71158279394939,
+					5.001670508808957
+				],
+				[
+					57.71158279394939,
+					5.386414394101962
+				],
+				[
+					57.71158279394939,
+					6.155902164687973
+				],
+				[
+					57.71158279394939,
+					6.925389935273984
+				],
+				[
+					57.71158279394939,
+					8.079621591152886
+				],
+				[
+					57.71158279394939,
+					9.233853247031902
+				],
+				[
+					57.71158279394939,
+					10.388084902910919
+				],
+				[
+					57.71158279394939,
+					11.542316558789821
+				],
+				[
+					56.94209502336338,
+					13.850779870547854
+				],
+				[
+					56.94209502336338,
+					15.774499297012767
+				],
+				[
+					56.55735113807043,
+					18.85245037935681
+				],
+				[
+					56.55735113807043,
+					20.39142592052883
+				],
+				[
+					55.78786336748442,
+					23.854120888165767
+				],
+				[
+					55.78786336748442,
+					26.932071970509696
+				],
+				[
+					55.403119482191414,
+					29.625279167560734
+				],
+				[
+					55.403119482191414,
+					31.933742479318653
+				],
+				[
+					54.6336317116054,
+					33.08797413519767
+				],
+				[
+					54.248887826312455,
+					34.62694967636969
+				],
+				[
+					54.248887826312455,
+					35.78118133224859
+				],
+				[
+					53.86414394101945,
+					36.550669102834604
+				],
+				[
+					53.86414394101945,
+					36.93541298812761
+				],
+				[
+					53.86414394101945,
+					37.70490075871362
+				],
+				[
+					53.479400055726444,
+					38.47438852929963
+				],
+				[
+					53.479400055726444,
+					39.24387629988553
+				],
+				[
+					53.479400055726444,
+					39.62862018517865
+				],
+				[
+					53.09465617043344,
+					40.01336407047154
+				],
+				[
+					53.09465617043344,
+					40.398107955764544
+				],
+				[
+					52.70991228514043,
+					40.398107955764544
+				],
+				[
+					52.70991228514043,
+					40.78285184105755
+				],
+				[
+					52.70991228514043,
+					41.167595726350555
+				],
+				[
+					52.32516839984743,
+					41.167595726350555
+				],
+				[
+					51.94042451455448,
+					41.167595726350555
+				],
+				[
+					51.555680629261474,
+					41.167595726350555
+				],
+				[
+					51.17093674396847,
+					41.167595726350555
+				],
+				[
+					50.40144897338246,
+					41.167595726350555
+				],
+				[
+					49.2472173175035,
+					41.167595726350555
+				],
+				[
+					48.09298566162448,
+					41.167595726350555
+				],
+				[
+					46.93875400574552,
+					41.167595726350555
+				],
+				[
+					44.24554680869454,
+					41.167595726350555
+				],
+				[
+					41.167595726350555,
+					41.167595726350555
+				],
+				[
+					37.320156873420615,
+					41.55233961164356
+				],
+				[
+					33.47271802049062,
+					41.55233961164356
+				],
+				[
+					29.625279167560677,
+					42.32182738222957
+				],
+				[
+					25.777840314630737,
+					42.32182738222957
+				],
+				[
+					20.77616980582178,
+					43.09131515281558
+				],
+				[
+					16.92873095289184,
+					43.09131515281558
+				],
+				[
+					13.081292099961843,
+					43.47605903810859
+				],
+				[
+					9.233853247031902,
+					43.47605903810859
+				],
+				[
+					5.001670508808957,
+					44.245546808694485
+				],
+				[
+					1.1542316558789594,
+					44.245546808694485
+				],
+				[
+					-6.540646049980921,
+					46.16926623515951
+				],
+				[
+					-13.0812920999619,
+					47.70824177633153
+				],
+				[
+					-15.774499297012824,
+					48.09298566162454
+				],
+				[
+					-18.467706494063805,
+					48.09298566162454
+				],
+				[
+					-23.854120888165767,
+					49.63196120279645
+				],
+				[
+					-27.701559741095707,
+					50.78619285867546
+				],
+				[
+					-32.703230249904664,
+					51.555680629261474
+				],
+				[
+					-38.089644644006626,
+					53.094656170433495
+				],
+				[
+					-41.937083496936594,
+					53.864143941019506
+				],
+				[
+					-45.784522349866535,
+					54.2488878263124
+				],
+				[
+					-49.631961202796504,
+					55.78786336748442
+				],
+				[
+					-53.86414394101945,
+					56.55735113807043
+				],
+				[
+					-57.71158279394942,
+					56.942095023363436
+				],
+				[
+					-61.55902164687939,
+					57.71158279394933
+				],
+				[
+					-64.63697272922334,
+					58.481070564535344
+				],
+				[
+					-67.71492381156733,
+					58.86581444982846
+				],
+				[
+					-69.6386432380323,
+					59.250558335121355
+				],
+				[
+					-73.48608209096227,
+					60.020046105707365
+				],
+				[
+					-75.40980151742724,
+					60.020046105707365
+				],
+				[
+					-77.33352094389221,
+					60.40478999100037
+				],
+				[
+					-78.8724964850642,
+					60.40478999100037
+				],
+				[
+					-80.79621591152917,
+					60.40478999100037
+				],
+				[
+					-81.95044756740816,
+					60.40478999100037
+				],
+				[
+					-83.48942310858016,
+					61.17427776158638
+				],
+				[
+					-84.25891087916614,
+					61.17427776158638
+				],
+				[
+					-85.02839864975215,
+					61.55902164687939
+				],
+				[
+					-85.41314253504513,
+					61.55902164687939
+				],
+				[
+					-85.79788642033813,
+					61.94376553217228
+				],
+				[
+					-85.79788642033813,
+					62.71325330275829
+				],
+				[
+					-85.79788642033813,
+					63.09799718805141
+				],
+				[
+					-85.79788642033813,
+					65.02171661451632
+				],
+				[
+					-85.79788642033813,
+					67.71492381156725
+				],
+				[
+					-86.18263030563114,
+					69.25389935273927
+				],
+				[
+					-86.18263030563114,
+					71.17761877920418
+				],
+				[
+					-86.18263030563114,
+					73.87082597625533
+				],
+				[
+					-86.18263030563114,
+					75.79454540272025
+				],
+				[
+					-86.18263030563114,
+					77.71826482918516
+				],
+				[
+					-86.18263030563114,
+					80.02672814094319
+				],
+				[
+					-86.18263030563114,
+					82.33519145270122
+				],
+				[
+					-86.18263030563114,
+					84.25891087916614
+				],
+				[
+					-85.79788642033813,
+					86.18263030563105
+				],
+				[
+					-85.41314253504513,
+					88.87583750268197
+				],
+				[
+					-85.41314253504513,
+					91.95378858502602
+				],
+				[
+					-84.64365476445914,
+					92.72327635561203
+				],
+				[
+					-84.25891087916614,
+					95.41648355266295
+				],
+				[
+					-84.25891087916614,
+					96.57071520854208
+				],
+				[
+					-84.25891087916614,
+					97.72494686442099
+				],
+				[
+					-84.25891087916614,
+					98.1096907497141
+				],
+				[
+					-84.25891087916614,
+					98.494434635007
+				],
+				[
+					-84.25891087916614,
+					98.87917852029989
+				],
+				[
+					-84.64365476445914,
+					99.6486662908859
+				],
+				[
+					-85.02839864975215,
+					99.6486662908859
+				],
+				[
+					-85.41314253504513,
+					99.6486662908859
+				],
+				[
+					-85.79788642033813,
+					99.6486662908859
+				],
+				[
+					-86.18263030563114,
+					99.6486662908859
+				],
+				[
+					-85.79788642033813,
+					99.26392240559301
+				],
+				[
+					-85.02839864975215,
+					99.26392240559301
+				],
+				[
+					-84.25891087916614,
+					98.87917852029989
+				],
+				[
+					-83.87416699387316,
+					98.87917852029989
+				],
+				[
+					-83.10467922328715,
+					98.87917852029989
+				],
+				[
+					-80.4114720262362,
+					98.494434635007
+				],
+				[
+					-78.10300871447822,
+					98.1096907497141
+				],
+				[
+					-76.56403317330623,
+					98.1096907497141
+				],
+				[
+					-75.79454540272025,
+					98.1096907497141
+				],
+				[
+					-74.25556986154825,
+					98.1096907497141
+				],
+				[
+					-73.10133820566926,
+					97.72494686442099
+				],
+				[
+					-71.1776187792043,
+					97.72494686442099
+				],
+				[
+					-70.79287489391129,
+					97.72494686442099
+				],
+				[
+					-70.0233871233253,
+					97.72494686442099
+				],
+				[
+					-69.6386432380323,
+					97.72494686442099
+				],
+				[
+					-69.2538993527393,
+					97.72494686442099
+				],
+				[
+					-68.86915546744632,
+					97.72494686442099
+				],
+				[
+					-68.48441158215331,
+					97.72494686442099
+				],
+				[
+					-68.09966769686031,
+					97.72494686442099
+				],
+				[
+					-67.71492381156733,
+					97.72494686442099
+				],
+				[
+					-67.33017992627433,
+					97.72494686442099
+				],
+				[
+					-66.94543604098132,
+					97.72494686442099
+				],
+				[
+					-66.56069215568834,
+					97.72494686442099
+				],
+				[
+					-66.17594827039534,
+					97.72494686442099
+				],
+				[
+					-65.79120438510233,
+					97.72494686442099
+				],
+				[
+					-65.40646049980933,
+					97.72494686442099
+				],
+				[
+					-65.02171661451635,
+					97.72494686442099
+				],
+				[
+					-64.63697272922334,
+					97.72494686442099
+				],
+				[
+					-64.25222884393034,
+					97.72494686442099
+				],
+				[
+					-63.86748495863736,
+					97.72494686442099
+				],
+				[
+					-63.48274107334436,
+					97.72494686442099
+				],
+				[
+					-63.09799718805135,
+					97.72494686442099
+				],
+				[
+					-62.713253302758375,
+					97.72494686442099
+				],
+				[
+					-62.32850941746537,
+					97.72494686442099
+				],
+				[
+					-61.943765532172364,
+					97.72494686442099
+				],
+				[
+					-61.55902164687939,
+					98.1096907497141
+				],
+				[
+					-61.17427776158638,
+					98.1096907497141
+				],
+				[
+					-61.17427776158638,
+					98.1096907497141
+				]
+			],
+			"lastCommittedPoint": null,
+			"simulatePressure": true,
+			"pressures": []
+		},
+		{
+			"type": "freedraw",
+			"version": 291,
+			"versionNonce": 412971490,
+			"isDeleted": false,
+			"id": "XqddwTERt2begdCe7g_95",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -222.1874653349853,
+			"y": 1043.6349110878036,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 4.444144494081371,
+			"height": 11.38812026608366,
+			"seed": 2021053214,
+			"groupIds": [],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1694624927707,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					0.555518061760182,
+					0.5555180617602673
+				],
+				[
+					0.8332770926402588,
+					0.833277092640401
+				],
+				[
+					1.1110361235203357,
+					1.1110361235205346
+				],
+				[
+					1.1110361235203357,
+					1.3887951544006683
+				],
+				[
+					1.3887951544004409,
+					1.6665541852805745
+				],
+				[
+					1.6665541852805177,
+					1.9443132161607082
+				],
+				[
+					1.9443132161605945,
+					2.4998312779209755
+				],
+				[
+					2.2220722470406997,
+					2.7775903088008818
+				],
+				[
+					2.4998312779207765,
+					3.333108370561149
+				],
+				[
+					2.7775903088008533,
+					3.8886264323214164
+				],
+				[
+					3.0553493396809586,
+					4.444144494081456
+				],
+				[
+					3.3331083705610354,
+					4.72190352496159
+				],
+				[
+					3.610867401441112,
+					4.999662555841724
+				],
+				[
+					3.888626432321189,
+					5.27742158672163
+				],
+				[
+					4.166385463201294,
+					5.5551806176017635
+				],
+				[
+					4.166385463201294,
+					5.832939648481897
+				],
+				[
+					3.888626432321189,
+					5.832939648481897
+				],
+				[
+					3.888626432321189,
+					6.110698679362031
+				],
+				[
+					3.610867401441112,
+					6.3884577102421645
+				],
+				[
+					3.3331083705610354,
+					6.666216741122298
+				],
+				[
+					3.0553493396809586,
+					6.943975772002204
+				],
+				[
+					2.7775903088008533,
+					7.221734802882338
+				],
+				[
+					2.4998312779207765,
+					7.499493833762472
+				],
+				[
+					2.2220722470406997,
+					7.777252864642605
+				],
+				[
+					1.9443132161605945,
+					8.055011895522512
+				],
+				[
+					1.6665541852805177,
+					8.055011895522512
+				],
+				[
+					1.6665541852805177,
+					8.332770926402645
+				],
+				[
+					1.3887951544004409,
+					8.610529957282779
+				],
+				[
+					1.1110361235203357,
+					8.610529957282779
+				],
+				[
+					0.8332770926402588,
+					8.888288988162913
+				],
+				[
+					0.555518061760182,
+					8.888288988162913
+				],
+				[
+					0.2777590308800768,
+					9.166048019043046
+				],
+				[
+					0.2777590308800768,
+					9.443807049922953
+				],
+				[
+					0,
+					9.443807049922953
+				],
+				[
+					0,
+					9.721566080803086
+				],
+				[
+					-0.2777590308800768,
+					9.99932511168322
+				],
+				[
+					-0.2777590308800768,
+					10.277084142563353
+				],
+				[
+					-0.2777590308800768,
+					10.55484317344326
+				],
+				[
+					-0.2777590308800768,
+					10.832602204323393
+				],
+				[
+					-0.2777590308800768,
+					11.110361235203527
+				],
+				[
+					-0.2777590308800768,
+					11.38812026608366
+				],
+				[
+					-0.2777590308800768,
+					11.38812026608366
+				]
+			],
+			"lastCommittedPoint": null,
+			"simulatePressure": true,
+			"pressures": []
+		},
+		{
+			"type": "text",
+			"version": 465,
+			"versionNonce": 1603573054,
+			"isDeleted": false,
+			"id": "Wrd5DVht",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -117.23691008894804,
+			"y": 1027.8264469296862,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 58.26153564453125,
+			"height": 12.813020220134545,
+			"seed": 931381470,
+			"groupIds": [
+				"yXRFpxmyHsVEOX5XlkEnj"
+			],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1694624927707,
+			"link": null,
+			"locked": false,
+			"fontSize": 10.250416176107636,
+			"fontFamily": 1,
+			"text": "0 - O (the)",
+			"rawText": "0 - O (the)",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "0 - O (the)",
+			"lineHeight": 1.25,
+			"baseline": 8
+		},
+		{
+			"type": "text",
+			"version": 527,
+			"versionNonce": 26797474,
+			"isDeleted": false,
+			"id": "YfWrPk6i",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -117.23691008894804,
+			"y": 1060.6271878862663,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 76.42469787597656,
+			"height": 12.813020220134545,
+			"seed": 1820680670,
+			"groupIds": [
+				"xAHGjOsnpowHPxSQoFR76"
+			],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1694624927707,
+			"link": null,
+			"locked": false,
+			"fontSize": 10.250416176107636,
+			"fontFamily": 1,
+			"text": "1  - gato (cat)",
+			"rawText": "1  - gato (cat)",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "1  - gato (cat)",
+			"lineHeight": 1.25,
+			"baseline": 8
+		},
+		{
+			"type": "text",
+			"version": 568,
+			"versionNonce": 755711358,
+			"isDeleted": false,
+			"id": "hVUF8usj",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -117.23691008894804,
+			"y": 1076.6271466539615,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 65.12907409667969,
+			"height": 12.813020220134545,
+			"seed": 1199142430,
+			"groupIds": [
+				"8QnQR33hkKCYHae6UEKaK"
+			],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1694624927707,
+			"link": null,
+			"locked": false,
+			"fontSize": 10.250416176107636,
+			"fontFamily": 1,
+			"text": "2 - está (is)",
+			"rawText": "2 - está (is)",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "2 - está (is)",
+			"lineHeight": 1.25,
+			"baseline": 8
+		},
+		{
+			"type": "text",
+			"version": 469,
+			"versionNonce": 1785717090,
+			"isDeleted": false,
+			"id": "rJw53mDJ",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -117.23691008894804,
+			"y": 1044.4650104718705,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 103.88468933105469,
+			"height": 12.813020220134545,
+			"seed": 190906974,
+			"groupIds": [
+				"j0EM36uyu9cAI9whXQ7rA"
+			],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1694624927707,
+			"link": null,
+			"locked": false,
+			"fontSize": 10.250416176107636,
+			"fontFamily": 1,
+			"text": "3 - pulando (jumping)",
+			"rawText": "3 - pulando (jumping)",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "3 - pulando (jumping)",
+			"lineHeight": 1.25,
+			"baseline": 8
+		},
+		{
+			"type": "freedraw",
+			"version": 267,
+			"versionNonce": 503504318,
+			"isDeleted": false,
+			"id": "bPtBAMPve3Lx7CNFA0NNx",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -150.92983968539966,
+			"y": 1056.1159278834689,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 11.75196582347678,
+			"height": 0.8104804016190883,
+			"seed": 609379842,
+			"groupIds": [],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1694624927707,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					1.2157206024286324,
+					0
+				],
+				[
+					1.6209608032381766,
+					0
+				],
+				[
+					2.0262010040477207,
+					0
+				],
+				[
+					3.241921606476353,
+					0
+				],
+				[
+					3.6471618072858973,
+					0
+				],
+				[
+					4.0524020080954415,
+					0
+				],
+				[
+					4.86288240971453,
+					0
+				],
+				[
+					5.268122610524074,
+					0.40524020080943046
+				],
+				[
+					5.673362811333618,
+					0.40524020080943046
+				],
+				[
+					6.078603012143162,
+					0.40524020080943046
+				],
+				[
+					6.483843212952706,
+					0.40524020080943046
+				],
+				[
+					6.8890834137622505,
+					0.40524020080943046
+				],
+				[
+					7.294323614571795,
+					0.40524020080943046
+				],
+				[
+					7.699563815381339,
+					0.40524020080943046
+				],
+				[
+					8.104804016190883,
+					0.40524020080943046
+				],
+				[
+					8.510044217000427,
+					0.40524020080943046
+				],
+				[
+					8.915284417809971,
+					0.8104804016190883
+				],
+				[
+					9.320524618619515,
+					0.8104804016190883
+				],
+				[
+					9.72576481942906,
+					0.8104804016190883
+				],
+				[
+					10.131005020238604,
+					0.8104804016190883
+				],
+				[
+					10.536245221048148,
+					0.8104804016190883
+				],
+				[
+					10.941485421857692,
+					0.8104804016190883
+				],
+				[
+					11.346725622667236,
+					0.8104804016190883
+				],
+				[
+					11.75196582347678,
+					0.8104804016190883
+				],
+				[
+					11.75196582347678,
+					0.8104804016190883
+				]
+			],
+			"lastCommittedPoint": null,
+			"simulatePressure": true,
+			"pressures": []
+		},
+		{
+			"type": "freedraw",
+			"version": 275,
+			"versionNonce": 1584489762,
+			"isDeleted": false,
+			"id": "cXLByC_PHvycspPXcG89C",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -139.98835426354196,
+			"y": 1051.6582856745638,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 4.457642208904929,
+			"height": 10.941485421857806,
+			"seed": 478282334,
+			"groupIds": [],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1694624927707,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					1.2157206024286324,
+					0.8104804016190883
+				],
+				[
+					1.6209608032381766,
+					1.2157206024287461
+				],
+				[
+					2.0262010040477207,
+					1.6209608032381766
+				],
+				[
+					2.431441204857208,
+					1.6209608032381766
+				],
+				[
+					2.431441204857208,
+					2.0262010040478344
+				],
+				[
+					2.836681405666752,
+					2.431441204857265
+				],
+				[
+					3.2419216064762963,
+					2.431441204857265
+				],
+				[
+					3.6471618072858405,
+					2.8366814056669227
+				],
+				[
+					4.052402008095385,
+					3.241921606476353
+				],
+				[
+					4.052402008095385,
+					3.647161807286011
+				],
+				[
+					4.052402008095385,
+					4.0524020080954415
+				],
+				[
+					4.052402008095385,
+					4.457642208905099
+				],
+				[
+					4.052402008095385,
+					4.86288240971453
+				],
+				[
+					4.457642208904929,
+					5.268122610524188
+				],
+				[
+					4.457642208904929,
+					5.673362811333618
+				],
+				[
+					4.457642208904929,
+					6.078603012143276
+				],
+				[
+					4.457642208904929,
+					6.483843212952706
+				],
+				[
+					4.457642208904929,
+					6.889083413762364
+				],
+				[
+					4.457642208904929,
+					7.6995638153814525
+				],
+				[
+					4.052402008095385,
+					8.104804016190883
+				],
+				[
+					3.6471618072858405,
+					8.51004421700054
+				],
+				[
+					3.2419216064762963,
+					8.915284417809971
+				],
+				[
+					3.2419216064762963,
+					9.320524618619629
+				],
+				[
+					2.836681405666752,
+					9.320524618619629
+				],
+				[
+					2.431441204857208,
+					9.72576481942906
+				],
+				[
+					2.0262010040477207,
+					10.131005020238717
+				],
+				[
+					1.6209608032381766,
+					10.131005020238717
+				],
+				[
+					1.6209608032381766,
+					10.536245221048148
+				],
+				[
+					1.2157206024286324,
+					10.536245221048148
+				],
+				[
+					0.8104804016190883,
+					10.536245221048148
+				],
+				[
+					0.8104804016190883,
+					10.941485421857806
+				],
+				[
+					0.40524020080954415,
+					10.941485421857806
+				],
+				[
+					0.40524020080954415,
+					10.941485421857806
+				]
+			],
+			"lastCommittedPoint": null,
+			"simulatePressure": true,
+			"pressures": []
+		},
+		{
+			"type": "text",
+			"version": 919,
+			"versionNonce": 127694334,
+			"isDeleted": false,
+			"id": "kCDVZp9x",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -325.296088853445,
+			"y": 1046.3815583533599,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 37.976593017578125,
+			"height": 12.813020220134545,
+			"seed": 175857410,
+			"groupIds": [
+				"DUVLHRH8CiR6qzVj_y0Z6"
+			],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1694624927707,
+			"link": null,
+			"locked": false,
+			"fontSize": 10.250416176107636,
+			"fontFamily": 1,
+			"text": "0 - the",
+			"rawText": "0 - the",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "0 - the",
+			"lineHeight": 1.25,
+			"baseline": 8
+		},
+		{
+			"type": "text",
+			"version": 985,
+			"versionNonce": 655126754,
+			"isDeleted": false,
+			"id": "9thRwEGR",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -325.296088853445,
+			"y": 1079.1822993099402,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 40.13935852050781,
+			"height": 12.813020220134545,
+			"seed": 394014402,
+			"groupIds": [
+				"EBpw44xtjLIr1Ms-E95Tq"
+			],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1694624927707,
+			"link": null,
+			"locked": false,
+			"fontSize": 10.250416176107636,
+			"fontFamily": 1,
+			"text": "1  - cat",
+			"rawText": "1  - cat",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "1  - cat",
+			"lineHeight": 1.25,
+			"baseline": 8
+		},
+		{
+			"type": "text",
+			"version": 1025,
+			"versionNonce": 1926825534,
+			"isDeleted": false,
+			"id": "8rBDStJx",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -325.296088853445,
+			"y": 1095.1822580776354,
+			"strokeColor": "#e03131",
+			"backgroundColor": "#a5d8ff",
+			"width": 29.571502685546875,
+			"height": 12.813020220134545,
+			"seed": 860685954,
+			"groupIds": [
+				"sTSnMSkgOYUDgwPc-HrN7"
+			],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1694624927707,
+			"link": null,
+			"locked": false,
+			"fontSize": 10.250416176107636,
+			"fontFamily": 1,
+			"text": "2 - is",
+			"rawText": "2 - is",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "2 - is",
+			"lineHeight": 1.25,
+			"baseline": 8
+		},
+		{
+			"type": "text",
+			"version": 1013,
+			"versionNonce": 131073186,
+			"isDeleted": false,
+			"id": "mvE0MQ1M",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -325.296088853445,
+			"y": 1063.0201218955447,
+			"strokeColor": "#e03131",
+			"backgroundColor": "#a5d8ff",
+			"width": 47.84742736816406,
+			"height": 12.813020220134545,
+			"seed": 380429890,
+			"groupIds": [
+				"hv-JaxNKegYRwnjiiSmyB"
+			],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1694624927707,
+			"link": null,
+			"locked": false,
+			"fontSize": 10.250416176107636,
+			"fontFamily": 1,
+			"text": "3 - juping",
+			"rawText": "3 - juping",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "3 - juping",
+			"lineHeight": 1.25,
+			"baseline": 8
+		},
+		{
+			"type": "freedraw",
+			"version": 285,
+			"versionNonce": 546934398,
+			"isDeleted": false,
+			"id": "vkoDuLNO-sIkltRDHN7Bl",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -268.449497920167,
+			"y": 1073.1360163174695,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 49.84454469957376,
+			"height": 2.0262010040478344,
+			"seed": 1373921374,
+			"groupIds": [],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1694624927707,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					0.8104804016190883,
+					0
+				],
+				[
+					1.2157206024286324,
+					0
+				],
+				[
+					1.6209608032381766,
+					0
+				],
+				[
+					2.0262010040477207,
+					0
+				],
+				[
+					2.431441204857265,
+					0
+				],
+				[
+					4.0524020080954415,
+					0
+				],
+				[
+					6.483843212952706,
+					0.40524020080965784
+				],
+				[
+					7.294323614571795,
+					0.40524020080965784
+				],
+				[
+					8.510044217000427,
+					0.40524020080965784
+				],
+				[
+					10.131005020238604,
+					0.8104804016190883
+				],
+				[
+					11.75196582347678,
+					0.8104804016190883
+				],
+				[
+					14.993887429953105,
+					0.8104804016190883
+				],
+				[
+					17.42532863481034,
+					0.8104804016190883
+				],
+				[
+					20.667250241286695,
+					1.2157206024287461
+				],
+				[
+					23.503931646953475,
+					1.2157206024287461
+				],
+				[
+					26.340613052620284,
+					1.2157206024287461
+				],
+				[
+					28.77205425747755,
+					1.2157206024287461
+				],
+				[
+					30.79825526152524,
+					1.2157206024287461
+				],
+				[
+					32.82445626557296,
+					2.0262010040478344
+				],
+				[
+					35.25589747043023,
+					2.0262010040478344
+				],
+				[
+					36.47161807285886,
+					2.0262010040478344
+				],
+				[
+					37.687338675287464,
+					2.0262010040478344
+				],
+				[
+					39.30829947852564,
+					2.0262010040478344
+				],
+				[
+					40.52402008095427,
+					2.0262010040478344
+				],
+				[
+					41.33450048257336,
+					2.0262010040478344
+				],
+				[
+					41.739740683382905,
+					2.0262010040478344
+				],
+				[
+					42.14498088419245,
+					2.0262010040478344
+				],
+				[
+					42.55022108500199,
+					2.0262010040478344
+				],
+				[
+					42.95546128581154,
+					2.0262010040478344
+				],
+				[
+					43.36070148662108,
+					2.0262010040478344
+				],
+				[
+					43.765941687430626,
+					2.0262010040478344
+				],
+				[
+					44.17118188824017,
+					2.0262010040478344
+				],
+				[
+					44.576422089049714,
+					2.0262010040478344
+				],
+				[
+					44.98166228985923,
+					2.0262010040478344
+				],
+				[
+					45.79214269147832,
+					1.6209608032381766
+				],
+				[
+					46.19738289228786,
+					1.6209608032381766
+				],
+				[
+					46.60262309309741,
+					1.6209608032381766
+				],
+				[
+					47.413103494716495,
+					1.6209608032381766
+				],
+				[
+					47.413103494716495,
+					1.2157206024287461
+				],
+				[
+					48.22358389633558,
+					1.2157206024287461
+				],
+				[
+					48.62882409714513,
+					1.2157206024287461
+				],
+				[
+					49.03406429795467,
+					1.2157206024287461
+				],
+				[
+					49.439304498764216,
+					1.2157206024287461
+				],
+				[
+					49.439304498764216,
+					0.8104804016190883
+				],
+				[
+					49.84454469957376,
+					0.8104804016190883
+				],
+				[
+					49.84454469957376,
+					0.8104804016190883
+				]
+			],
+			"lastCommittedPoint": null,
+			"simulatePressure": true,
+			"pressures": []
+		},
+		{
+			"type": "freedraw",
+			"version": 274,
+			"versionNonce": 2053840994,
+			"isDeleted": false,
+			"id": "jHl7zfuUQwZzFJmkYyEHr",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -222.25211502787914,
+			"y": 1069.8940947109932,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 6.078603012143162,
+			"height": 9.72576481942906,
+			"seed": 8222686,
+			"groupIds": [],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1694624927707,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					0.40524020080954415,
+					0
+				],
+				[
+					0.8104804016190883,
+					0
+				],
+				[
+					1.2157206024286324,
+					0
+				],
+				[
+					1.6209608032381766,
+					0.40524020080965784
+				],
+				[
+					2.431441204857265,
+					0.40524020080965784
+				],
+				[
+					2.836681405666809,
+					0.8104804016193157
+				],
+				[
+					3.6471618072858973,
+					1.2157206024287461
+				],
+				[
+					4.0524020080954415,
+					1.6209608032381766
+				],
+				[
+					4.457642208904986,
+					1.6209608032381766
+				],
+				[
+					4.86288240971453,
+					2.0262010040478344
+				],
+				[
+					4.86288240971453,
+					2.431441204857265
+				],
+				[
+					5.268122610524074,
+					2.431441204857265
+				],
+				[
+					5.268122610524074,
+					2.8366814056669227
+				],
+				[
+					5.673362811333618,
+					2.8366814056669227
+				],
+				[
+					5.673362811333618,
+					3.241921606476353
+				],
+				[
+					6.078603012143162,
+					3.647161807286011
+				],
+				[
+					6.078603012143162,
+					4.0524020080954415
+				],
+				[
+					6.078603012143162,
+					4.457642208905099
+				],
+				[
+					6.078603012143162,
+					5.268122610524188
+				],
+				[
+					6.078603012143162,
+					5.673362811333618
+				],
+				[
+					6.078603012143162,
+					6.078603012143276
+				],
+				[
+					6.078603012143162,
+					6.483843212952706
+				],
+				[
+					5.673362811333618,
+					6.889083413762364
+				],
+				[
+					5.268122610524074,
+					7.294323614571795
+				],
+				[
+					4.86288240971453,
+					7.6995638153814525
+				],
+				[
+					4.457642208904986,
+					7.6995638153814525
+				],
+				[
+					4.0524020080954415,
+					8.104804016190883
+				],
+				[
+					3.6471618072858973,
+					8.104804016190883
+				],
+				[
+					3.241921606476353,
+					8.51004421700054
+				],
+				[
+					2.836681405666809,
+					8.915284417809971
+				],
+				[
+					2.431441204857265,
+					8.915284417809971
+				],
+				[
+					2.431441204857265,
+					9.320524618619629
+				],
+				[
+					2.0262010040477207,
+					9.320524618619629
+				],
+				[
+					1.6209608032381766,
+					9.320524618619629
+				],
+				[
+					1.6209608032381766,
+					9.72576481942906
+				],
+				[
+					1.6209608032381766,
+					9.72576481942906
+				]
+			],
+			"lastCommittedPoint": null,
+			"simulatePressure": true,
+			"pressures": []
+		},
+		{
+			"type": "text",
+			"version": 501,
+			"versionNonce": 228527806,
+			"isDeleted": false,
+			"id": "smqXMEUd",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -192.82048442629156,
+			"y": 1073.1937686850454,
+			"strokeColor": "#e03131",
+			"backgroundColor": "#a5d8ff",
+			"width": 18.199020385742188,
+			"height": 18.011260980729645,
+			"seed": 1023164894,
+			"groupIds": [
+				"acR0JI5z"
+			],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1694624927707,
+			"link": null,
+			"locked": false,
+			"fontSize": 7.204504392291858,
+			"fontFamily": 1,
+			"text": "Mask\navoid",
+			"rawText": "Mask\navoid",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "Mask\navoid",
+			"lineHeight": 1.25,
+			"baseline": 15
+		},
+		{
+			"type": "text",
+			"version": 307,
+			"versionNonce": 1789707298,
+			"isDeleted": false,
+			"id": "cJeCoXrZ",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -344.411299677866,
+			"y": 877.5615611315468,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 256.62457275390625,
+			"height": 20,
+			"seed": 220728990,
+			"groupIds": [
+				"acR0JI5z"
+			],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1694624927707,
+			"link": null,
+			"locked": false,
+			"fontSize": 16,
+			"fontFamily": 1,
+			"text": "Translation en-pt simple example",
+			"rawText": "Translation en-pt simple example",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "Translation en-pt simple example",
+			"lineHeight": 1.25,
+			"baseline": 14
+		},
+		{
+			"type": "text",
+			"version": 507,
+			"versionNonce": 1988790014,
+			"isDeleted": false,
+			"id": "4dmLmMNj",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -329.0791866354513,
+			"y": 921.2595029737362,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 37.976593017578125,
+			"height": 12.813020220134545,
+			"seed": 1988345438,
+			"groupIds": [
+				"0lO8GuNdqQ8m70D0xMDSK"
+			],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1694624927707,
+			"link": null,
+			"locked": false,
+			"fontSize": 10.250416176107636,
+			"fontFamily": 1,
+			"text": "0 - the",
+			"rawText": "0 - the",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "0 - the",
+			"lineHeight": 1.25,
+			"baseline": 8
+		},
+		{
+			"type": "text",
+			"version": 268,
+			"versionNonce": 1921249250,
+			"isDeleted": false,
+			"id": "z1xFW4sp",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -190.72406359105895,
+			"y": 1045.3642353110906,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#a5d8ff",
+			"width": 12.480026245117188,
+			"height": 20,
+			"seed": 1207478146,
+			"groupIds": [],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1694624927707,
+			"link": null,
+			"locked": false,
+			"fontSize": 16,
+			"fontFamily": 1,
+			"text": "D",
+			"rawText": "D",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "D",
+			"lineHeight": 1.25,
+			"baseline": 14
+		},
+		{
+			"type": "text",
+			"version": 42,
+			"versionNonce": 1541207870,
+			"isDeleted": false,
+			"id": "oJf7dMso",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 50,
+			"angle": 0,
+			"x": 390.4807235565814,
+			"y": -1178.2848197701232,
+			"strokeColor": "transparent",
+			"backgroundColor": "#ffec99",
+			"width": 37.15208435058594,
+			"height": 20,
+			"seed": 1822142510,
+			"groupIds": [
+				"HA5Tsemc"
+			],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1694624927707,
+			"link": null,
+			"locked": false,
+			"fontSize": 16,
+			"fontFamily": 1,
+			"text": "sdsa",
+			"rawText": "sdsa",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "sdsa",
+			"lineHeight": 1.25,
+			"baseline": 14
+		},
+		{
+			"type": "text",
+			"version": 231,
+			"versionNonce": 369075106,
+			"isDeleted": false,
+			"id": "j0Rfcise",
+			"fillStyle": "solid",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": 384.69520907698785,
+			"y": -1176.1809963229985,
+			"strokeColor": "#1971c2",
+			"backgroundColor": "#ffec99",
+			"width": 91.69960021972656,
+			"height": 54.767795886813445,
+			"seed": 1441363698,
+			"groupIds": [
+				"HA5Tsemc"
+			],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1694624927707,
+			"link": null,
+			"locked": false,
+			"fontSize": 8.76284734189015,
+			"fontFamily": 1,
+			"text": "\"Query and keys\nwill \"fire\" weights\nof value based\non their compatibility\"\n",
+			"rawText": "\"Query and keys\nwill \"fire\" weights\nof value based\non their compatibility\"\n",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "\"Query and keys\nwill \"fire\" weights\nof value based\non their compatibility\"\n",
+			"lineHeight": 1.25,
+			"baseline": 51
 		}
 	],
 	"appState": {
 		"theme": "light",
 		"viewBackgroundColor": "#ffffff",
-		"currentItemStrokeColor": "#1e1e1e",
-		"currentItemBackgroundColor": "#a5d8ff",
+		"currentItemStrokeColor": "#1971c2",
+		"currentItemBackgroundColor": "#ffec99",
 		"currentItemFillStyle": "solid",
-		"currentItemStrokeWidth": 1,
+		"currentItemStrokeWidth": 4,
 		"currentItemStrokeStyle": "solid",
 		"currentItemRoughness": 0,
 		"currentItemOpacity": 100,
@@ -14979,12 +17550,12 @@ c73ee5d2986ca79b0d4f2ca9c475acd12145c06a: [[Attention Is All You Need.pdf#page=1
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "triangle",
-		"scrollX": 2196.583767567662,
-		"scrollY": 1680.3052719516463,
+		"scrollX": 375.86289938112435,
+		"scrollY": 1170.4367121241976,
 		"zoom": {
-			"value": 0.28059153164966505
+			"value": 1.35221178820397
 		},
-		"currentItemRoundness": "sharp",
+		"currentItemRoundness": "round",
 		"gridSize": null,
 		"currentStrokeOptions": null,
 		"previousGridSize": null
